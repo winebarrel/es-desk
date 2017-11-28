@@ -1,0 +1,33 @@
+<section>
+  <div class="col-sm-4">
+    <strong>Index:</strong>
+    <%= rs_link_to_index(@resultset) %>
+    <p>
+      <%= json_editor(@resultset.index_definition, id: 'index-definition-viewer', readonly: true) %>
+    </p>
+  </div>
+  <div class="col-sm-4">
+    <strong>Query</strong>
+    <p>
+      <%= json_editor(@resultset.query, id: 'query-viewer', readonly: true) %>
+    </p>
+  </div>
+  <div class="col-sm-4">
+    <strong>Result</strong>
+    <p>
+      <%= json_editor(@resultset.result, id: 'result-viewer', readonly: true) %>
+    </p>
+  </div>
+  <div class="col-sm-12">
+    <strong>Dataset:</strong>
+    <%= rs_link_to_dataset(@resultset) %>
+    <p>
+      <%= ndjson_editor(@resultset.dataset_preview, readonly: true) %>
+    </p>
+  </div>
+</section>
+<section>
+  <div class="col-sm-12">
+    <%= link_to 'Back', resultsets_path %>
+  </div>
+</section>

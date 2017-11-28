@@ -1,0 +1,31 @@
+<%# add navigation links to this file %>
+<li>
+  <%= link_to root_path, class: current_top_path?(root_path) ? 'color-white' : '' do %>
+    <span class="glyphicon glyphicon-play"></span>
+    Search
+  <% end %>
+</li>
+<li>
+  <%= link_to resultsets_path, class: current_top_path?(resultsets_path) ? 'color-white' : '' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Resultset
+  <% end %>
+</li>
+<li>
+  <%= link_to queries_path, class: current_top_path?(queries_path) ? 'color-white' : '' do %>
+    <span class="glyphicon glyphicon-search"></span>
+    Query
+  <% end %>
+</li>
+<li>
+  <%= link_to indices_path, class: current_top_path?(indices_path) ? 'color-white' : '' do %>
+    <span class="glyphicon glyphicon-wrench"></span>
+    Index
+  <% end %>
+</li>
+<li>
+  <%= link_to datasets_path, class: current_top_path?(datasets_path) ? 'color-white' : '' do %>
+    <span class="glyphicon glyphicon-book"></span>
+    Dataset
+  <% end %>
+</li>

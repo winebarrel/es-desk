@@ -1,0 +1,12 @@
+<div class="page-header">
+  <strong>Editing Index: <%= @index.name %></strong>
+</div>
+
+<%= render 'form', index: @index, datasets: @datasets %>
+
+<section>
+  <div class="col-sm-12">
+    <%= link_to 'Show', index_path(@index.name) %> |
+    <%= link_to 'Back', indices_path %>
+  </div>
+</section>

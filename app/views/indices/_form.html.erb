@@ -1,0 +1,43 @@
+<% if index.errors.any? %>
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <div class="alert alert-danger">
+        <% index.errors.full_messages.each do |message| %>
+          <%= message %><br/>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<%= form_with(model: index, local: true) do |form| %>
+  <% if index.persisted? %>
+    <div class="form-group row">
+      <div class="col-sm-12">
+        <%= label_tag :dataset, 'Dataset', class: 'control-label' %>
+        <%= select_tag :dataset,
+              options_for_select([''] + datasets.map(&:name), selected: index.metadata.dataset),
+              class: 'form-control' %>
+      </div>
+    </div>
+  <% else %>
+    <div class="form-group row">
+      <div class="col-sm-12">
+        <%= form.label :name, class: 'control-label' %>
+        <%= form.text_field :name, id: :index_name, class: 'form-control' %>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <%= form.label :definition, class: 'control-label' %>
+      <%= json_editor(index.definition, name: 'index[definition]') %>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <%= form.submit class: 'btn btn-primary' %>
+    </div>
+  </div>
+<% end %>

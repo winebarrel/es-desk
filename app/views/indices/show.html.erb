@@ -1,0 +1,26 @@
+<div class="page-header">
+  <strong><%= @index.name %></strong>
+</div>
+
+<section>
+  <div class="col-sm-12">
+    <p>
+      <strong>Dataset:</strong>
+      <%= index_link_to_dataset(@index) %>
+    </p>
+  </div>
+  <div class="col-sm-12">
+    <strong>Definition</strong>
+    <p>
+      <%= json_editor(@index.definition, readonly: true) %>
+    </p>
+  </div>
+</section>
+<section>
+  <div class="col-sm-12">
+    <%= link_to 'Copy', new_index_path(copy: @index.name) %> |
+    <%= link_to 'Edit', edit_index_path(@index.name) %> |
+    <%= link_to 'Destroy', @index, method: :delete, data: { confirm: "Are you sure you want to destroy '#{@index.name}'?" } %> |
+    <%= link_to 'Back', indices_path %>
+  </div>
+</section>

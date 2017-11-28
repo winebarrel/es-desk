@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  mysql:
+    image: 'mysql:5.6'
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1
+      - TZ=Asia/Tokyo
+    ports:
+     - '3306:3306'
+  elasticsearch:
+    image: 'elasticsearch:5.5'
+    environment:
+      - 'ES_JAVA_OPTS=-Xms128m -Xmx128m'
+    ports:
+     - '9200:9200'

@@ -1,0 +1,12 @@
+<div class="page-header">
+  <strong>Editing Dataset: <%= @dataset.name %></strong>
+</div>
+
+<%= render 'form', dataset: @dataset %>
+
+<section>
+  <div class="col-sm-12">
+    <%= link_to 'Show', @dataset %> |
+    <%= link_to 'Back', datasets_path %>
+  </div>
+</section>

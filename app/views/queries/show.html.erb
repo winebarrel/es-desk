@@ -1,0 +1,20 @@
+<div class="page-header">
+  <strong><%= @query.name %></strong>
+</div>
+
+<section>
+  <div class="col-sm-12">
+    <strong>Query</strong>
+    <p>
+      <%= json_editor(@query.query, readonly: true) %>
+    </p>
+  </div>
+</section>
+<section>
+  <div class="col-sm-12">
+    <%= link_to 'Copy', new_query_path(copy: @query.id) %> |
+    <%= link_to 'Edit', edit_query_path(@query) %> |
+    <%= link_to 'Destroy', @query, method: :delete, data: { confirm: "Are you sure you want to destroy '#{@query.name}'?" } %> |
+    <%= link_to 'Back', queries_path %>
+  </div>
+</section>

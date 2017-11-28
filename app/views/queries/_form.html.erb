@@ -1,0 +1,32 @@
+<% if query.errors.any? %>
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <div class="alert alert-danger">
+        <% query.errors.full_messages.each do |message| %>
+          <%= message %><br/>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<%= form_with(model: query, local: true) do |form| %>
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <%= form.label :name, class: 'control-label' %>
+      <%= form.text_field :name, id: :query_name, class: 'form-control' %>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <%= form.label :query, class: 'control-label' %>
+      <%= json_editor(query.query, name: 'query[query]') %>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <%= form.submit class: 'btn btn-primary' %>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,8 @@
+<div class="page-header">
+  <strong>Editing Index: <%= @query.name %></strong>
+</div>
+
+<%= render 'form', query: @query %>
+
+<%= link_to 'Show', @query %> |
+<%= link_to 'Back', queries_path %>

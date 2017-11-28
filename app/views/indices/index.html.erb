@@ -1,0 +1,47 @@
+<div class="page-header">
+  <span class="glyphicon glyphicon-wrench"></span>
+  <strong>Index</strong>
+</div>
+
+<section>
+  <div class="col-sm-12">
+    <%= button_to 'New Index', new_index_path, method: 'get', class: 'btn btn-primary' %>
+  </div>
+</section>
+
+<section>
+  <div class="col-sm-12">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Dataset</th>
+          <th>docs.count</th>
+          <th>docs.deleted</th>
+          <th>store.size</th>
+          <th>pri.store.size</th>
+          <th colspan="3"></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @indices.each do |index| %>
+          <tr>
+            <td><%= link_to index.name, index_path(index.name) %></td>
+            <td><%= index_link_to_dataset(index) %></td>
+            <td><%= index.docs_count %></td>
+            <td><%= index.docs_deleted %></td>
+            <td><%= index.store_size %></td>
+            <td><%= index.pri_store_size %></td>
+            <td><%= link_to 'Copy', new_index_path(copy: index.name) %></td>
+            <td><%= link_to 'Edit', edit_index_path(index.name) %></td>
+            <td><%= link_to 'Destroy', index, method: :delete, data: { confirm: "Are you sure you want to destroy '#{index.name}'?" } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-sm-12 text-center">
+    <%= paginate @indices %>
+  </div>
+</section>

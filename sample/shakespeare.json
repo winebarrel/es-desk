@@ -1,0 +1,1000 @@
+{"index":{"_index":"shakespeare","_id":0}}
+{"type":"act","line_id":1,"play_name":"Henry IV", "speech_number":"","line_number":"","speaker":"","text_entry":"ACT I"}
+{"index":{"_index":"shakespeare","_id":1}}
+{"type":"scene","line_id":2,"play_name":"Henry IV","speech_number":"","line_number":"","speaker":"","text_entry":"SCENE I. London. The palace."}
+{"index":{"_index":"shakespeare","_id":2}}
+{"type":"line","line_id":3,"play_name":"Henry IV","speech_number":"","line_number":"","speaker":"","text_entry":"Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL of WESTMORELAND, SIR WALTER BLUNT, and others"}
+{"index":{"_index":"shakespeare","_id":3}}
+{"type":"line","line_id":4,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.1","speaker":"KING HENRY IV","text_entry":"So shaken as we are, so wan with care,"}
+{"index":{"_index":"shakespeare","_id":4}}
+{"type":"line","line_id":5,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.2","speaker":"KING HENRY IV","text_entry":"Find we a time for frighted peace to pant,"}
+{"index":{"_index":"shakespeare","_id":5}}
+{"type":"line","line_id":6,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.3","speaker":"KING HENRY IV","text_entry":"And breathe short-winded accents of new broils"}
+{"index":{"_index":"shakespeare","_id":6}}
+{"type":"line","line_id":7,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.4","speaker":"KING HENRY IV","text_entry":"To be commenced in strands afar remote."}
+{"index":{"_index":"shakespeare","_id":7}}
+{"type":"line","line_id":8,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.5","speaker":"KING HENRY IV","text_entry":"No more the thirsty entrance of this soil"}
+{"index":{"_index":"shakespeare","_id":8}}
+{"type":"line","line_id":9,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.6","speaker":"KING HENRY IV","text_entry":"Shall daub her lips with her own childrens blood;"}
+{"index":{"_index":"shakespeare","_id":9}}
+{"type":"line","line_id":10,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.7","speaker":"KING HENRY IV","text_entry":"Nor more shall trenching war channel her fields,"}
+{"index":{"_index":"shakespeare","_id":10}}
+{"type":"line","line_id":11,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.8","speaker":"KING HENRY IV","text_entry":"Nor bruise her flowerets with the armed hoofs"}
+{"index":{"_index":"shakespeare","_id":11}}
+{"type":"line","line_id":12,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.9","speaker":"KING HENRY IV","text_entry":"Of hostile paces: those opposed eyes,"}
+{"index":{"_index":"shakespeare","_id":12}}
+{"type":"line","line_id":13,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.10","speaker":"KING HENRY IV","text_entry":"Which, like the meteors of a troubled heaven,"}
+{"index":{"_index":"shakespeare","_id":13}}
+{"type":"line","line_id":14,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.11","speaker":"KING HENRY IV","text_entry":"All of one nature, of one substance bred,"}
+{"index":{"_index":"shakespeare","_id":14}}
+{"type":"line","line_id":15,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.12","speaker":"KING HENRY IV","text_entry":"Did lately meet in the intestine shock"}
+{"index":{"_index":"shakespeare","_id":15}}
+{"type":"line","line_id":16,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.13","speaker":"KING HENRY IV","text_entry":"And furious close of civil butchery"}
+{"index":{"_index":"shakespeare","_id":16}}
+{"type":"line","line_id":17,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.14","speaker":"KING HENRY IV","text_entry":"Shall now, in mutual well-beseeming ranks,"}
+{"index":{"_index":"shakespeare","_id":17}}
+{"type":"line","line_id":18,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.15","speaker":"KING HENRY IV","text_entry":"March all one way and be no more opposed"}
+{"index":{"_index":"shakespeare","_id":18}}
+{"type":"line","line_id":19,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.16","speaker":"KING HENRY IV","text_entry":"Against acquaintance, kindred and allies:"}
+{"index":{"_index":"shakespeare","_id":19}}
+{"type":"line","line_id":20,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.17","speaker":"KING HENRY IV","text_entry":"The edge of war, like an ill-sheathed knife,"}
+{"index":{"_index":"shakespeare","_id":20}}
+{"type":"line","line_id":21,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.18","speaker":"KING HENRY IV","text_entry":"No more shall cut his master. Therefore, friends,"}
+{"index":{"_index":"shakespeare","_id":21}}
+{"type":"line","line_id":22,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.19","speaker":"KING HENRY IV","text_entry":"As far as to the sepulchre of Christ,"}
+{"index":{"_index":"shakespeare","_id":22}}
+{"type":"line","line_id":23,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.20","speaker":"KING HENRY IV","text_entry":"Whose soldier now, under whose blessed cross"}
+{"index":{"_index":"shakespeare","_id":23}}
+{"type":"line","line_id":24,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.21","speaker":"KING HENRY IV","text_entry":"We are impressed and engaged to fight,"}
+{"index":{"_index":"shakespeare","_id":24}}
+{"type":"line","line_id":25,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.22","speaker":"KING HENRY IV","text_entry":"Forthwith a power of English shall we levy;"}
+{"index":{"_index":"shakespeare","_id":25}}
+{"type":"line","line_id":26,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.23","speaker":"KING HENRY IV","text_entry":"Whose arms were moulded in their mothers womb"}
+{"index":{"_index":"shakespeare","_id":26}}
+{"type":"line","line_id":27,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.24","speaker":"KING HENRY IV","text_entry":"To chase these pagans in those holy fields"}
+{"index":{"_index":"shakespeare","_id":27}}
+{"type":"line","line_id":28,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.25","speaker":"KING HENRY IV","text_entry":"Over whose acres walkd those blessed feet"}
+{"index":{"_index":"shakespeare","_id":28}}
+{"type":"line","line_id":29,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.26","speaker":"KING HENRY IV","text_entry":"Which fourteen hundred years ago were naild"}
+{"index":{"_index":"shakespeare","_id":29}}
+{"type":"line","line_id":30,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.27","speaker":"KING HENRY IV","text_entry":"For our advantage on the bitter cross."}
+{"index":{"_index":"shakespeare","_id":30}}
+{"type":"line","line_id":31,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.28","speaker":"KING HENRY IV","text_entry":"But this our purpose now is twelve month old,"}
+{"index":{"_index":"shakespeare","_id":31}}
+{"type":"line","line_id":32,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.29","speaker":"KING HENRY IV","text_entry":"And bootless tis to tell you we will go:"}
+{"index":{"_index":"shakespeare","_id":32}}
+{"type":"line","line_id":33,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.30","speaker":"KING HENRY IV","text_entry":"Therefore we meet not now. Then let me hear"}
+{"index":{"_index":"shakespeare","_id":33}}
+{"type":"line","line_id":34,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.31","speaker":"KING HENRY IV","text_entry":"Of you, my gentle cousin Westmoreland,"}
+{"index":{"_index":"shakespeare","_id":34}}
+{"type":"line","line_id":35,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.32","speaker":"KING HENRY IV","text_entry":"What yesternight our council did decree"}
+{"index":{"_index":"shakespeare","_id":35}}
+{"type":"line","line_id":36,"play_name":"Henry IV","speech_number":1,"line_number":"1.1.33","speaker":"KING HENRY IV","text_entry":"In forwarding this dear expedience."}
+{"index":{"_index":"shakespeare","_id":36}}
+{"type":"line","line_id":37,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.34","speaker":"WESTMORELAND","text_entry":"My liege, this haste was hot in question,"}
+{"index":{"_index":"shakespeare","_id":37}}
+{"type":"line","line_id":38,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.35","speaker":"WESTMORELAND","text_entry":"And many limits of the charge set down"}
+{"index":{"_index":"shakespeare","_id":38}}
+{"type":"line","line_id":39,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.36","speaker":"WESTMORELAND","text_entry":"But yesternight: when all athwart there came"}
+{"index":{"_index":"shakespeare","_id":39}}
+{"type":"line","line_id":40,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.37","speaker":"WESTMORELAND","text_entry":"A post from Wales loaden with heavy news;"}
+{"index":{"_index":"shakespeare","_id":40}}
+{"type":"line","line_id":41,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.38","speaker":"WESTMORELAND","text_entry":"Whose worst was, that the noble Mortimer,"}
+{"index":{"_index":"shakespeare","_id":41}}
+{"type":"line","line_id":42,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.39","speaker":"WESTMORELAND","text_entry":"Leading the men of Herefordshire to fight"}
+{"index":{"_index":"shakespeare","_id":42}}
+{"type":"line","line_id":43,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.40","speaker":"WESTMORELAND","text_entry":"Against the irregular and wild Glendower,"}
+{"index":{"_index":"shakespeare","_id":43}}
+{"type":"line","line_id":44,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.41","speaker":"WESTMORELAND","text_entry":"Was by the rude hands of that Welshman taken,"}
+{"index":{"_index":"shakespeare","_id":44}}
+{"type":"line","line_id":45,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.42","speaker":"WESTMORELAND","text_entry":"A thousand of his people butchered;"}
+{"index":{"_index":"shakespeare","_id":45}}
+{"type":"line","line_id":46,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.43","speaker":"WESTMORELAND","text_entry":"Upon whose dead corpse there was such misuse,"}
+{"index":{"_index":"shakespeare","_id":46}}
+{"type":"line","line_id":47,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.44","speaker":"WESTMORELAND","text_entry":"Such beastly shameless transformation,"}
+{"index":{"_index":"shakespeare","_id":47}}
+{"type":"line","line_id":48,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.45","speaker":"WESTMORELAND","text_entry":"By those Welshwomen done as may not be"}
+{"index":{"_index":"shakespeare","_id":48}}
+{"type":"line","line_id":49,"play_name":"Henry IV","speech_number":2,"line_number":"1.1.46","speaker":"WESTMORELAND","text_entry":"Without much shame retold or spoken of."}
+{"index":{"_index":"shakespeare","_id":49}}
+{"type":"line","line_id":50,"play_name":"Henry IV","speech_number":3,"line_number":"1.1.47","speaker":"KING HENRY IV","text_entry":"It seems then that the tidings of this broil"}
+{"index":{"_index":"shakespeare","_id":50}}
+{"type":"line","line_id":51,"play_name":"Henry IV","speech_number":3,"line_number":"1.1.48","speaker":"KING HENRY IV","text_entry":"Brake off our business for the Holy Land."}
+{"index":{"_index":"shakespeare","_id":51}}
+{"type":"line","line_id":52,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.49","speaker":"WESTMORELAND","text_entry":"This matchd with other did, my gracious lord;"}
+{"index":{"_index":"shakespeare","_id":52}}
+{"type":"line","line_id":53,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.50","speaker":"WESTMORELAND","text_entry":"For more uneven and unwelcome news"}
+{"index":{"_index":"shakespeare","_id":53}}
+{"type":"line","line_id":54,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.51","speaker":"WESTMORELAND","text_entry":"Came from the north and thus it did import:"}
+{"index":{"_index":"shakespeare","_id":54}}
+{"type":"line","line_id":55,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.52","speaker":"WESTMORELAND","text_entry":"On Holy-rood day, the gallant Hotspur there,"}
+{"index":{"_index":"shakespeare","_id":55}}
+{"type":"line","line_id":56,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.53","speaker":"WESTMORELAND","text_entry":"Young Harry Percy and brave Archibald,"}
+{"index":{"_index":"shakespeare","_id":56}}
+{"type":"line","line_id":57,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.54","speaker":"WESTMORELAND","text_entry":"That ever-valiant and approved Scot,"}
+{"index":{"_index":"shakespeare","_id":57}}
+{"type":"line","line_id":58,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.55","speaker":"WESTMORELAND","text_entry":"At Holmedon met,"}
+{"index":{"_index":"shakespeare","_id":58}}
+{"type":"line","line_id":59,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.56","speaker":"WESTMORELAND","text_entry":"Where they did spend a sad and bloody hour,"}
+{"index":{"_index":"shakespeare","_id":59}}
+{"type":"line","line_id":60,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.57","speaker":"WESTMORELAND","text_entry":"As by discharge of their artillery,"}
+{"index":{"_index":"shakespeare","_id":60}}
+{"type":"line","line_id":61,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.58","speaker":"WESTMORELAND","text_entry":"And shape of likelihood, the news was told;"}
+{"index":{"_index":"shakespeare","_id":61}}
+{"type":"line","line_id":62,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.59","speaker":"WESTMORELAND","text_entry":"For he that brought them, in the very heat"}
+{"index":{"_index":"shakespeare","_id":62}}
+{"type":"line","line_id":63,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.60","speaker":"WESTMORELAND","text_entry":"And pride of their contention did take horse,"}
+{"index":{"_index":"shakespeare","_id":63}}
+{"type":"line","line_id":64,"play_name":"Henry IV","speech_number":4,"line_number":"1.1.61","speaker":"WESTMORELAND","text_entry":"Uncertain of the issue any way."}
+{"index":{"_index":"shakespeare","_id":64}}
+{"type":"line","line_id":65,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.62","speaker":"KING HENRY IV","text_entry":"Here is a dear, a true industrious friend,"}
+{"index":{"_index":"shakespeare","_id":65}}
+{"type":"line","line_id":66,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.63","speaker":"KING HENRY IV","text_entry":"Sir Walter Blunt, new lighted from his horse."}
+{"index":{"_index":"shakespeare","_id":66}}
+{"type":"line","line_id":67,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.64","speaker":"KING HENRY IV","text_entry":"Staind with the variation of each soil"}
+{"index":{"_index":"shakespeare","_id":67}}
+{"type":"line","line_id":68,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.65","speaker":"KING HENRY IV","text_entry":"Betwixt that Holmedon and this seat of ours;"}
+{"index":{"_index":"shakespeare","_id":68}}
+{"type":"line","line_id":69,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.66","speaker":"KING HENRY IV","text_entry":"And he hath brought us smooth and welcome news."}
+{"index":{"_index":"shakespeare","_id":69}}
+{"type":"line","line_id":70,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.67","speaker":"KING HENRY IV","text_entry":"The Earl of Douglas is discomfited:"}
+{"index":{"_index":"shakespeare","_id":70}}
+{"type":"line","line_id":71,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.68","speaker":"KING HENRY IV","text_entry":"Ten thousand bold Scots, two and twenty knights,"}
+{"index":{"_index":"shakespeare","_id":71}}
+{"type":"line","line_id":72,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.69","speaker":"KING HENRY IV","text_entry":"Balkd in their own blood did Sir Walter see"}
+{"index":{"_index":"shakespeare","_id":72}}
+{"type":"line","line_id":73,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.70","speaker":"KING HENRY IV","text_entry":"On Holmedons plains. Of prisoners, Hotspur took"}
+{"index":{"_index":"shakespeare","_id":73}}
+{"type":"line","line_id":74,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.71","speaker":"KING HENRY IV","text_entry":"Mordake the Earl of Fife, and eldest son"}
+{"index":{"_index":"shakespeare","_id":74}}
+{"type":"line","line_id":75,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.72","speaker":"KING HENRY IV","text_entry":"To beaten Douglas; and the Earl of Athol,"}
+{"index":{"_index":"shakespeare","_id":75}}
+{"type":"line","line_id":76,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.73","speaker":"KING HENRY IV","text_entry":"Of Murray, Angus, and Menteith:"}
+{"index":{"_index":"shakespeare","_id":76}}
+{"type":"line","line_id":77,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.74","speaker":"KING HENRY IV","text_entry":"And is not this an honourable spoil?"}
+{"index":{"_index":"shakespeare","_id":77}}
+{"type":"line","line_id":78,"play_name":"Henry IV","speech_number":5,"line_number":"1.1.75","speaker":"KING HENRY IV","text_entry":"A gallant prize? ha, cousin, is it not?"}
+{"index":{"_index":"shakespeare","_id":78}}
+{"type":"line","line_id":79,"play_name":"Henry IV","speech_number":6,"line_number":"1.1.76","speaker":"WESTMORELAND","text_entry":"In faith,"}
+{"index":{"_index":"shakespeare","_id":79}}
+{"type":"line","line_id":80,"play_name":"Henry IV","speech_number":6,"line_number":"1.1.77","speaker":"WESTMORELAND","text_entry":"It is a conquest for a prince to boast of."}
+{"index":{"_index":"shakespeare","_id":80}}
+{"type":"line","line_id":81,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.78","speaker":"KING HENRY IV","text_entry":"Yea, there thou makest me sad and makest me sin"}
+{"index":{"_index":"shakespeare","_id":81}}
+{"type":"line","line_id":82,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.79","speaker":"KING HENRY IV","text_entry":"In envy that my Lord Northumberland"}
+{"index":{"_index":"shakespeare","_id":82}}
+{"type":"line","line_id":83,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.80","speaker":"KING HENRY IV","text_entry":"Should be the father to so blest a son,"}
+{"index":{"_index":"shakespeare","_id":83}}
+{"type":"line","line_id":84,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.81","speaker":"KING HENRY IV","text_entry":"A son who is the theme of honours tongue;"}
+{"index":{"_index":"shakespeare","_id":84}}
+{"type":"line","line_id":85,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.82","speaker":"KING HENRY IV","text_entry":"Amongst a grove, the very straightest plant;"}
+{"index":{"_index":"shakespeare","_id":85}}
+{"type":"line","line_id":86,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.83","speaker":"KING HENRY IV","text_entry":"Who is sweet Fortunes minion and her pride:"}
+{"index":{"_index":"shakespeare","_id":86}}
+{"type":"line","line_id":87,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.84","speaker":"KING HENRY IV","text_entry":"Whilst I, by looking on the praise of him,"}
+{"index":{"_index":"shakespeare","_id":87}}
+{"type":"line","line_id":88,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.85","speaker":"KING HENRY IV","text_entry":"See riot and dishonour stain the brow"}
+{"index":{"_index":"shakespeare","_id":88}}
+{"type":"line","line_id":89,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.86","speaker":"KING HENRY IV","text_entry":"Of my young Harry. O that it could be proved"}
+{"index":{"_index":"shakespeare","_id":89}}
+{"type":"line","line_id":90,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.87","speaker":"KING HENRY IV","text_entry":"That some night-tripping fairy had exchanged"}
+{"index":{"_index":"shakespeare","_id":90}}
+{"type":"line","line_id":91,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.88","speaker":"KING HENRY IV","text_entry":"In cradle-clothes our children where they lay,"}
+{"index":{"_index":"shakespeare","_id":91}}
+{"type":"line","line_id":92,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.89","speaker":"KING HENRY IV","text_entry":"And calld mine Percy, his Plantagenet!"}
+{"index":{"_index":"shakespeare","_id":92}}
+{"type":"line","line_id":93,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.90","speaker":"KING HENRY IV","text_entry":"Then would I have his Harry, and he mine."}
+{"index":{"_index":"shakespeare","_id":93}}
+{"type":"line","line_id":94,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.91","speaker":"KING HENRY IV","text_entry":"But let him from my thoughts. What think you, coz,"}
+{"index":{"_index":"shakespeare","_id":94}}
+{"type":"line","line_id":95,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.92","speaker":"KING HENRY IV","text_entry":"Of this young Percys pride? the prisoners,"}
+{"index":{"_index":"shakespeare","_id":95}}
+{"type":"line","line_id":96,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.93","speaker":"KING HENRY IV","text_entry":"Which he in this adventure hath surprised,"}
+{"index":{"_index":"shakespeare","_id":96}}
+{"type":"line","line_id":97,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.94","speaker":"KING HENRY IV","text_entry":"To his own use he keeps; and sends me word,"}
+{"index":{"_index":"shakespeare","_id":97}}
+{"type":"line","line_id":98,"play_name":"Henry IV","speech_number":7,"line_number":"1.1.95","speaker":"KING HENRY IV","text_entry":"I shall have none but Mordake Earl of Fife."}
+{"index":{"_index":"shakespeare","_id":98}}
+{"type":"line","line_id":99,"play_name":"Henry IV","speech_number":8,"line_number":"1.1.96","speaker":"WESTMORELAND","text_entry":"This is his uncles teaching; this is Worcester,"}
+{"index":{"_index":"shakespeare","_id":99}}
+{"type":"line","line_id":100,"play_name":"Henry IV","speech_number":8,"line_number":"1.1.97","speaker":"WESTMORELAND","text_entry":"Malevolent to you in all aspects;"}
+{"index":{"_index":"shakespeare","_id":100}}
+{"type":"line","line_id":101,"play_name":"Henry IV","speech_number":8,"line_number":"1.1.98","speaker":"WESTMORELAND","text_entry":"Which makes him prune himself, and bristle up"}
+{"index":{"_index":"shakespeare","_id":101}}
+{"type":"line","line_id":102,"play_name":"Henry IV","speech_number":8,"line_number":"1.1.99","speaker":"WESTMORELAND","text_entry":"The crest of youth against your dignity."}
+{"index":{"_index":"shakespeare","_id":102}}
+{"type":"line","line_id":103,"play_name":"Henry IV","speech_number":9,"line_number":"1.1.100","speaker":"KING HENRY IV","text_entry":"But I have sent for him to answer this;"}
+{"index":{"_index":"shakespeare","_id":103}}
+{"type":"line","line_id":104,"play_name":"Henry IV","speech_number":9,"line_number":"1.1.101","speaker":"KING HENRY IV","text_entry":"And for this cause awhile we must neglect"}
+{"index":{"_index":"shakespeare","_id":104}}
+{"type":"line","line_id":105,"play_name":"Henry IV","speech_number":9,"line_number":"1.1.102","speaker":"KING HENRY IV","text_entry":"Our holy purpose to Jerusalem."}
+{"index":{"_index":"shakespeare","_id":105}}
+{"type":"line","line_id":106,"play_name":"Henry IV","speech_number":9,"line_number":"1.1.103","speaker":"KING HENRY IV","text_entry":"Cousin, on Wednesday next our council we"}
+{"index":{"_index":"shakespeare","_id":106}}
+{"type":"line","line_id":107,"play_name":"Henry IV","speech_number":9,"line_number":"1.1.104","speaker":"KING HENRY IV","text_entry":"Will hold at Windsor; so inform the lords:"}
+{"index":{"_index":"shakespeare","_id":107}}
+{"type":"line","line_id":108,"play_name":"Henry IV","speech_number":9,"line_number":"1.1.105","speaker":"KING HENRY IV","text_entry":"But come yourself with speed to us again;"}
+{"index":{"_index":"shakespeare","_id":108}}
+{"type":"line","line_id":109,"play_name":"Henry IV","speech_number":9,"line_number":"1.1.106","speaker":"KING HENRY IV","text_entry":"For more is to be said and to be done"}
+{"index":{"_index":"shakespeare","_id":109}}
+{"type":"line","line_id":110,"play_name":"Henry IV","speech_number":9,"line_number":"1.1.107","speaker":"KING HENRY IV","text_entry":"Than out of anger can be uttered."}
+{"index":{"_index":"shakespeare","_id":110}}
+{"type":"line","line_id":111,"play_name":"Henry IV","speech_number":10,"line_number":"1.1.108","speaker":"WESTMORELAND","text_entry":"I will, my liege."}
+{"index":{"_index":"shakespeare","_id":111}}
+{"type":"line","line_id":112,"play_name":"Henry IV","speech_number":10,"line_number":"","speaker":"WESTMORELAND","text_entry":"Exeunt"}
+{"index":{"_index":"shakespeare","_id":112}}
+{"type":"scene","line_id":113,"play_name":"Henry IV","speech_number":10,"line_number":"","speaker":"WESTMORELAND","text_entry":"SCENE II. London. An apartment of the Princes."}
+{"index":{"_index":"shakespeare","_id":113}}
+{"type":"line","line_id":114,"play_name":"Henry IV","speech_number":10,"line_number":"","speaker":"WESTMORELAND","text_entry":"Enter the PRINCE OF WALES and FALSTAFF"}
+{"index":{"_index":"shakespeare","_id":114}}
+{"type":"line","line_id":115,"play_name":"Henry IV","speech_number":1,"line_number":"1.2.1","speaker":"FALSTAFF","text_entry":"Now, Hal, what time of day is it, lad?"}
+{"index":{"_index":"shakespeare","_id":115}}
+{"type":"line","line_id":116,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.2","speaker":"PRINCE HENRY","text_entry":"Thou art so fat-witted, with drinking of old sack"}
+{"index":{"_index":"shakespeare","_id":116}}
+{"type":"line","line_id":117,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.3","speaker":"PRINCE HENRY","text_entry":"and unbuttoning thee after supper and sleeping upon"}
+{"index":{"_index":"shakespeare","_id":117}}
+{"type":"line","line_id":118,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.4","speaker":"PRINCE HENRY","text_entry":"benches after noon, that thou hast forgotten to"}
+{"index":{"_index":"shakespeare","_id":118}}
+{"type":"line","line_id":119,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.5","speaker":"PRINCE HENRY","text_entry":"demand that truly which thou wouldst truly know."}
+{"index":{"_index":"shakespeare","_id":119}}
+{"type":"line","line_id":120,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.6","speaker":"PRINCE HENRY","text_entry":"What a devil hast thou to do with the time of the"}
+{"index":{"_index":"shakespeare","_id":120}}
+{"type":"line","line_id":121,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.7","speaker":"PRINCE HENRY","text_entry":"day? Unless hours were cups of sack and minutes"}
+{"index":{"_index":"shakespeare","_id":121}}
+{"type":"line","line_id":122,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.8","speaker":"PRINCE HENRY","text_entry":"capons and clocks the tongues of bawds and dials the"}
+{"index":{"_index":"shakespeare","_id":122}}
+{"type":"line","line_id":123,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.9","speaker":"PRINCE HENRY","text_entry":"signs of leaping-houses and the blessed sun himself"}
+{"index":{"_index":"shakespeare","_id":123}}
+{"type":"line","line_id":124,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.10","speaker":"PRINCE HENRY","text_entry":"a fair hot wench in flame-coloured taffeta, I see no"}
+{"index":{"_index":"shakespeare","_id":124}}
+{"type":"line","line_id":125,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.11","speaker":"PRINCE HENRY","text_entry":"reason why thou shouldst be so superfluous to demand"}
+{"index":{"_index":"shakespeare","_id":125}}
+{"type":"line","line_id":126,"play_name":"Henry IV","speech_number":2,"line_number":"1.2.12","speaker":"PRINCE HENRY","text_entry":"the time of the day."}
+{"index":{"_index":"shakespeare","_id":126}}
+{"type":"line","line_id":127,"play_name":"Henry IV","speech_number":3,"line_number":"1.2.13","speaker":"FALSTAFF","text_entry":"Indeed, you come near me now, Hal; for we that take"}
+{"index":{"_index":"shakespeare","_id":127}}
+{"type":"line","line_id":128,"play_name":"Henry IV","speech_number":3,"line_number":"1.2.14","speaker":"FALSTAFF","text_entry":"purses go by the moon and the seven stars, and not"}
+{"index":{"_index":"shakespeare","_id":128}}
+{"type":"line","line_id":129,"play_name":"Henry IV","speech_number":3,"line_number":"1.2.15","speaker":"FALSTAFF","text_entry":"by Phoebus, he,that wandering knight so fair. And,"}
+{"index":{"_index":"shakespeare","_id":129}}
+{"type":"line","line_id":130,"play_name":"Henry IV","speech_number":3,"line_number":"1.2.16","speaker":"FALSTAFF","text_entry":"I prithee, sweet wag, when thou art king, as, God"}
+{"index":{"_index":"shakespeare","_id":130}}
+{"type":"line","line_id":131,"play_name":"Henry IV","speech_number":3,"line_number":"1.2.17","speaker":"FALSTAFF","text_entry":"save thy grace,--majesty I should say, for grace"}
+{"index":{"_index":"shakespeare","_id":131}}
+{"type":"line","line_id":132,"play_name":"Henry IV","speech_number":3,"line_number":"1.2.18","speaker":"FALSTAFF","text_entry":"thou wilt have none,--"}
+{"index":{"_index":"shakespeare","_id":132}}
+{"type":"line","line_id":133,"play_name":"Henry IV","speech_number":4,"line_number":"1.2.19","speaker":"PRINCE HENRY","text_entry":"What, none?"}
+{"index":{"_index":"shakespeare","_id":133}}
+{"type":"line","line_id":134,"play_name":"Henry IV","speech_number":5,"line_number":"1.2.20","speaker":"FALSTAFF","text_entry":"No, by my troth, not so much as will serve to"}
+{"index":{"_index":"shakespeare","_id":134}}
+{"type":"line","line_id":135,"play_name":"Henry IV","speech_number":5,"line_number":"1.2.21","speaker":"FALSTAFF","text_entry":"prologue to an egg and butter."}
+{"index":{"_index":"shakespeare","_id":135}}
+{"type":"line","line_id":136,"play_name":"Henry IV","speech_number":6,"line_number":"1.2.22","speaker":"PRINCE HENRY","text_entry":"Well, how then? come, roundly, roundly."}
+{"index":{"_index":"shakespeare","_id":136}}
+{"type":"line","line_id":137,"play_name":"Henry IV","speech_number":7,"line_number":"1.2.23","speaker":"FALSTAFF","text_entry":"Marry, then, sweet wag, when thou art king, let not"}
+{"index":{"_index":"shakespeare","_id":137}}
+{"type":"line","line_id":138,"play_name":"Henry IV","speech_number":7,"line_number":"1.2.24","speaker":"FALSTAFF","text_entry":"us that are squires of the nights body be called"}
+{"index":{"_index":"shakespeare","_id":138}}
+{"type":"line","line_id":139,"play_name":"Henry IV","speech_number":7,"line_number":"1.2.25","speaker":"FALSTAFF","text_entry":"thieves of the days beauty: let us be Dianas"}
+{"index":{"_index":"shakespeare","_id":139}}
+{"type":"line","line_id":140,"play_name":"Henry IV","speech_number":7,"line_number":"1.2.26","speaker":"FALSTAFF","text_entry":"foresters, gentlemen of the shade, minions of the"}
+{"index":{"_index":"shakespeare","_id":140}}
+{"type":"line","line_id":141,"play_name":"Henry IV","speech_number":7,"line_number":"1.2.27","speaker":"FALSTAFF","text_entry":"moon; and let men say we be men of good government,"}
+{"index":{"_index":"shakespeare","_id":141}}
+{"type":"line","line_id":142,"play_name":"Henry IV","speech_number":7,"line_number":"1.2.28","speaker":"FALSTAFF","text_entry":"being governed, as the sea is, by our noble and"}
+{"index":{"_index":"shakespeare","_id":142}}
+{"type":"line","line_id":143,"play_name":"Henry IV","speech_number":7,"line_number":"1.2.29","speaker":"FALSTAFF","text_entry":"chaste mistress the moon, under whose countenance we steal."}
+{"index":{"_index":"shakespeare","_id":143}}
+{"type":"line","line_id":144,"play_name":"Henry IV","speech_number":8,"line_number":"1.2.30","speaker":"PRINCE HENRY","text_entry":"Thou sayest well, and it holds well too; for the"}
+{"index":{"_index":"shakespeare","_id":144}}
+{"type":"line","line_id":145,"play_name":"Henry IV","speech_number":8,"line_number":"1.2.31","speaker":"PRINCE HENRY","text_entry":"fortune of us that are the moons men doth ebb and"}
+{"index":{"_index":"shakespeare","_id":145}}
+{"type":"line","line_id":146,"play_name":"Henry IV","speech_number":8,"line_number":"1.2.32","speaker":"PRINCE HENRY","text_entry":"flow like the sea, being governed, as the sea is,"}
+{"index":{"_index":"shakespeare","_id":146}}
+{"type":"line","line_id":147,"play_name":"Henry IV","speech_number":8,"line_number":"1.2.33","speaker":"PRINCE HENRY","text_entry":"by the moon. As, for proof, now: a purse of gold"}
+{"index":{"_index":"shakespeare","_id":147}}
+{"type":"line","line_id":148,"play_name":"Henry IV","speech_number":8,"line_number":"1.2.34","speaker":"PRINCE HENRY","text_entry":"most resolutely snatched on Monday night and most"}
+{"index":{"_index":"shakespeare","_id":148}}
+{"type":"line","line_id":149,"play_name":"Henry IV","speech_number":8,"line_number":"1.2.35","speaker":"PRINCE HENRY","text_entry":"dissolutely spent on Tuesday morning; got with"}
+{"index":{"_index":"shakespeare","_id":149}}
+{"type":"line","line_id":150,"play_name":"Henry IV","speech_number":8,"line_number":"1.2.36","speaker":"PRINCE HENRY","text_entry":"swearing Lay by and spent with crying Bring in;"}
+{"index":{"_index":"shakespeare","_id":150}}
+{"type":"line","line_id":151,"play_name":"Henry IV","speech_number":8,"line_number":"1.2.37","speaker":"PRINCE HENRY","text_entry":"now in as low an ebb as the foot of the ladder"}
+{"index":{"_index":"shakespeare","_id":151}}
+{"type":"line","line_id":152,"play_name":"Henry IV","speech_number":8,"line_number":"1.2.38","speaker":"PRINCE HENRY","text_entry":"and by and by in as high a flow as the ridge of the gallows."}
+{"index":{"_index":"shakespeare","_id":152}}
+{"type":"line","line_id":153,"play_name":"Henry IV","speech_number":9,"line_number":"1.2.39","speaker":"FALSTAFF","text_entry":"By the Lord, thou sayest true, lad. And is not my"}
+{"index":{"_index":"shakespeare","_id":153}}
+{"type":"line","line_id":154,"play_name":"Henry IV","speech_number":9,"line_number":"1.2.40","speaker":"FALSTAFF","text_entry":"hostess of the tavern a most sweet wench?"}
+{"index":{"_index":"shakespeare","_id":154}}
+{"type":"line","line_id":155,"play_name":"Henry IV","speech_number":10,"line_number":"1.2.41","speaker":"PRINCE HENRY","text_entry":"As the honey of Hybla, my old lad of the castle. And"}
+{"index":{"_index":"shakespeare","_id":155}}
+{"type":"line","line_id":156,"play_name":"Henry IV","speech_number":10,"line_number":"1.2.42","speaker":"PRINCE HENRY","text_entry":"is not a buff jerkin a most sweet robe of durance?"}
+{"index":{"_index":"shakespeare","_id":156}}
+{"type":"line","line_id":157,"play_name":"Henry IV","speech_number":11,"line_number":"1.2.43","speaker":"FALSTAFF","text_entry":"How now, how now, mad wag! what, in thy quips and"}
+{"index":{"_index":"shakespeare","_id":157}}
+{"type":"line","line_id":158,"play_name":"Henry IV","speech_number":11,"line_number":"1.2.44","speaker":"FALSTAFF","text_entry":"thy quiddities? what a plague have I to do with a"}
+{"index":{"_index":"shakespeare","_id":158}}
+{"type":"line","line_id":159,"play_name":"Henry IV","speech_number":11,"line_number":"1.2.45","speaker":"FALSTAFF","text_entry":"buff jerkin?"}
+{"index":{"_index":"shakespeare","_id":159}}
+{"type":"line","line_id":160,"play_name":"Henry IV","speech_number":12,"line_number":"1.2.46","speaker":"PRINCE HENRY","text_entry":"Why, what a pox have I to do with my hostess of the tavern?"}
+{"index":{"_index":"shakespeare","_id":160}}
+{"type":"line","line_id":161,"play_name":"Henry IV","speech_number":13,"line_number":"1.2.47","speaker":"FALSTAFF","text_entry":"Well, thou hast called her to a reckoning many a"}
+{"index":{"_index":"shakespeare","_id":161}}
+{"type":"line","line_id":162,"play_name":"Henry IV","speech_number":13,"line_number":"1.2.48","speaker":"FALSTAFF","text_entry":"time and oft."}
+{"index":{"_index":"shakespeare","_id":162}}
+{"type":"line","line_id":163,"play_name":"Henry IV","speech_number":14,"line_number":"1.2.49","speaker":"PRINCE HENRY","text_entry":"Did I ever call for thee to pay thy part?"}
+{"index":{"_index":"shakespeare","_id":163}}
+{"type":"line","line_id":164,"play_name":"Henry IV","speech_number":15,"line_number":"1.2.50","speaker":"FALSTAFF","text_entry":"No; Ill give thee thy due, thou hast paid all there."}
+{"index":{"_index":"shakespeare","_id":164}}
+{"type":"line","line_id":165,"play_name":"Henry IV","speech_number":16,"line_number":"1.2.51","speaker":"PRINCE HENRY","text_entry":"Yea, and elsewhere, so far as my coin would stretch;"}
+{"index":{"_index":"shakespeare","_id":165}}
+{"type":"line","line_id":166,"play_name":"Henry IV","speech_number":16,"line_number":"1.2.52","speaker":"PRINCE HENRY","text_entry":"and where it would not, I have used my credit."}
+{"index":{"_index":"shakespeare","_id":166}}
+{"type":"line","line_id":167,"play_name":"Henry IV","speech_number":17,"line_number":"1.2.53","speaker":"FALSTAFF","text_entry":"Yea, and so used it that were it not here apparent"}
+{"index":{"_index":"shakespeare","_id":167}}
+{"type":"line","line_id":168,"play_name":"Henry IV","speech_number":17,"line_number":"1.2.54","speaker":"FALSTAFF","text_entry":"that thou art heir apparent--But, I prithee, sweet"}
+{"index":{"_index":"shakespeare","_id":168}}
+{"type":"line","line_id":169,"play_name":"Henry IV","speech_number":17,"line_number":"1.2.55","speaker":"FALSTAFF","text_entry":"wag, shall there be gallows standing in England when"}
+{"index":{"_index":"shakespeare","_id":169}}
+{"type":"line","line_id":170,"play_name":"Henry IV","speech_number":17,"line_number":"1.2.56","speaker":"FALSTAFF","text_entry":"thou art king? and resolution thus fobbed as it is"}
+{"index":{"_index":"shakespeare","_id":170}}
+{"type":"line","line_id":171,"play_name":"Henry IV","speech_number":17,"line_number":"1.2.57","speaker":"FALSTAFF","text_entry":"with the rusty curb of old father antic the law? Do"}
+{"index":{"_index":"shakespeare","_id":171}}
+{"type":"line","line_id":172,"play_name":"Henry IV","speech_number":17,"line_number":"1.2.58","speaker":"FALSTAFF","text_entry":"not thou, when thou art king, hang a thief."}
+{"index":{"_index":"shakespeare","_id":172}}
+{"type":"line","line_id":173,"play_name":"Henry IV","speech_number":18,"line_number":"1.2.59","speaker":"PRINCE HENRY","text_entry":"No; thou shalt."}
+{"index":{"_index":"shakespeare","_id":173}}
+{"type":"line","line_id":174,"play_name":"Henry IV","speech_number":19,"line_number":"1.2.60","speaker":"FALSTAFF","text_entry":"Shall I? O rare! By the Lord, Ill be a brave judge."}
+{"index":{"_index":"shakespeare","_id":174}}
+{"type":"line","line_id":175,"play_name":"Henry IV","speech_number":20,"line_number":"1.2.61","speaker":"PRINCE HENRY","text_entry":"Thou judgest false already: I mean, thou shalt have"}
+{"index":{"_index":"shakespeare","_id":175}}
+{"type":"line","line_id":176,"play_name":"Henry IV","speech_number":20,"line_number":"1.2.62","speaker":"PRINCE HENRY","text_entry":"the hanging of the thieves and so become a rare hangman."}
+{"index":{"_index":"shakespeare","_id":176}}
+{"type":"line","line_id":177,"play_name":"Henry IV","speech_number":21,"line_number":"1.2.63","speaker":"FALSTAFF","text_entry":"Well, Hal, well; and in some sort it jumps with my"}
+{"index":{"_index":"shakespeare","_id":177}}
+{"type":"line","line_id":178,"play_name":"Henry IV","speech_number":21,"line_number":"1.2.64","speaker":"FALSTAFF","text_entry":"humour as well as waiting in the court, I can tell"}
+{"index":{"_index":"shakespeare","_id":178}}
+{"type":"line","line_id":179,"play_name":"Henry IV","speech_number":21,"line_number":"1.2.65","speaker":"FALSTAFF","text_entry":"you."}
+{"index":{"_index":"shakespeare","_id":179}}
+{"type":"line","line_id":180,"play_name":"Henry IV","speech_number":22,"line_number":"1.2.66","speaker":"PRINCE HENRY","text_entry":"For obtaining of suits?"}
+{"index":{"_index":"shakespeare","_id":180}}
+{"type":"line","line_id":181,"play_name":"Henry IV","speech_number":23,"line_number":"1.2.67","speaker":"FALSTAFF","text_entry":"Yea, for obtaining of suits, whereof the hangman"}
+{"index":{"_index":"shakespeare","_id":181}}
+{"type":"line","line_id":182,"play_name":"Henry IV","speech_number":23,"line_number":"1.2.68","speaker":"FALSTAFF","text_entry":"hath no lean wardrobe. Sblood, I am as melancholy"}
+{"index":{"_index":"shakespeare","_id":182}}
+{"type":"line","line_id":183,"play_name":"Henry IV","speech_number":23,"line_number":"1.2.69","speaker":"FALSTAFF","text_entry":"as a gib cat or a lugged bear."}
+{"index":{"_index":"shakespeare","_id":183}}
+{"type":"line","line_id":184,"play_name":"Henry IV","speech_number":24,"line_number":"1.2.70","speaker":"PRINCE HENRY","text_entry":"Or an old lion, or a lovers lute."}
+{"index":{"_index":"shakespeare","_id":184}}
+{"type":"line","line_id":185,"play_name":"Henry IV","speech_number":25,"line_number":"1.2.71","speaker":"FALSTAFF","text_entry":"Yea, or the drone of a Lincolnshire bagpipe."}
+{"index":{"_index":"shakespeare","_id":185}}
+{"type":"line","line_id":186,"play_name":"Henry IV","speech_number":26,"line_number":"1.2.72","speaker":"PRINCE HENRY","text_entry":"What sayest thou to a hare, or the melancholy of"}
+{"index":{"_index":"shakespeare","_id":186}}
+{"type":"line","line_id":187,"play_name":"Henry IV","speech_number":26,"line_number":"1.2.73","speaker":"PRINCE HENRY","text_entry":"Moor-ditch?"}
+{"index":{"_index":"shakespeare","_id":187}}
+{"type":"line","line_id":188,"play_name":"Henry IV","speech_number":27,"line_number":"1.2.74","speaker":"FALSTAFF","text_entry":"Thou hast the most unsavoury similes and art indeed"}
+{"index":{"_index":"shakespeare","_id":188}}
+{"type":"line","line_id":189,"play_name":"Henry IV","speech_number":27,"line_number":"1.2.75","speaker":"FALSTAFF","text_entry":"the most comparative, rascalliest, sweet young"}
+{"index":{"_index":"shakespeare","_id":189}}
+{"type":"line","line_id":190,"play_name":"Henry IV","speech_number":27,"line_number":"1.2.76","speaker":"FALSTAFF","text_entry":"prince. But, Hal, I prithee, trouble me no more"}
+{"index":{"_index":"shakespeare","_id":190}}
+{"type":"line","line_id":191,"play_name":"Henry IV","speech_number":27,"line_number":"1.2.77","speaker":"FALSTAFF","text_entry":"with vanity. I would to God thou and I knew where a"}
+{"index":{"_index":"shakespeare","_id":191}}
+{"type":"line","line_id":192,"play_name":"Henry IV","speech_number":27,"line_number":"1.2.78","speaker":"FALSTAFF","text_entry":"commodity of good names were to be bought. An old"}
+{"index":{"_index":"shakespeare","_id":192}}
+{"type":"line","line_id":193,"play_name":"Henry IV","speech_number":27,"line_number":"1.2.79","speaker":"FALSTAFF","text_entry":"lord of the council rated me the other day in the"}
+{"index":{"_index":"shakespeare","_id":193}}
+{"type":"line","line_id":194,"play_name":"Henry IV","speech_number":27,"line_number":"1.2.80","speaker":"FALSTAFF","text_entry":"street about you, sir, but I marked him not; and yet"}
+{"index":{"_index":"shakespeare","_id":194}}
+{"type":"line","line_id":195,"play_name":"Henry IV","speech_number":27,"line_number":"1.2.81","speaker":"FALSTAFF","text_entry":"he talked very wisely, but I regarded him not; and"}
+{"index":{"_index":"shakespeare","_id":195}}
+{"type":"line","line_id":196,"play_name":"Henry IV","speech_number":27,"line_number":"1.2.82","speaker":"FALSTAFF","text_entry":"yet he talked wisely, and in the street too."}
+{"index":{"_index":"shakespeare","_id":196}}
+{"type":"line","line_id":197,"play_name":"Henry IV","speech_number":28,"line_number":"1.2.83","speaker":"PRINCE HENRY","text_entry":"Thou didst well; for wisdom cries out in the"}
+{"index":{"_index":"shakespeare","_id":197}}
+{"type":"line","line_id":198,"play_name":"Henry IV","speech_number":28,"line_number":"1.2.84","speaker":"PRINCE HENRY","text_entry":"streets, and no man regards it."}
+{"index":{"_index":"shakespeare","_id":198}}
+{"type":"line","line_id":199,"play_name":"Henry IV","speech_number":29,"line_number":"1.2.85","speaker":"FALSTAFF","text_entry":"O, thou hast damnable iteration and art indeed able"}
+{"index":{"_index":"shakespeare","_id":199}}
+{"type":"line","line_id":200,"play_name":"Henry IV","speech_number":29,"line_number":"1.2.86","speaker":"FALSTAFF","text_entry":"to corrupt a saint. Thou hast done much harm upon"}
+{"index":{"_index":"shakespeare","_id":200}}
+{"type":"line","line_id":201,"play_name":"Henry IV","speech_number":29,"line_number":"1.2.87","speaker":"FALSTAFF","text_entry":"me, Hal; God forgive thee for it! Before I knew"}
+{"index":{"_index":"shakespeare","_id":201}}
+{"type":"line","line_id":202,"play_name":"Henry IV","speech_number":29,"line_number":"1.2.88","speaker":"FALSTAFF","text_entry":"thee, Hal, I knew nothing; and now am I, if a man"}
+{"index":{"_index":"shakespeare","_id":202}}
+{"type":"line","line_id":203,"play_name":"Henry IV","speech_number":29,"line_number":"1.2.89","speaker":"FALSTAFF","text_entry":"should speak truly, little better than one of the"}
+{"index":{"_index":"shakespeare","_id":203}}
+{"type":"line","line_id":204,"play_name":"Henry IV","speech_number":29,"line_number":"1.2.90","speaker":"FALSTAFF","text_entry":"wicked. I must give over this life, and I will give"}
+{"index":{"_index":"shakespeare","_id":204}}
+{"type":"line","line_id":205,"play_name":"Henry IV","speech_number":29,"line_number":"1.2.91","speaker":"FALSTAFF","text_entry":"it over: by the Lord, and I do not, I am a villain:"}
+{"index":{"_index":"shakespeare","_id":205}}
+{"type":"line","line_id":206,"play_name":"Henry IV","speech_number":29,"line_number":"1.2.92","speaker":"FALSTAFF","text_entry":"Ill be damned for never a kings son in"}
+{"index":{"_index":"shakespeare","_id":206}}
+{"type":"line","line_id":207,"play_name":"Henry IV","speech_number":29,"line_number":"1.2.93","speaker":"FALSTAFF","text_entry":"Christendom."}
+{"index":{"_index":"shakespeare","_id":207}}
+{"type":"line","line_id":208,"play_name":"Henry IV","speech_number":30,"line_number":"1.2.94","speaker":"PRINCE HENRY","text_entry":"Where shall we take a purse tomorrow, Jack?"}
+{"index":{"_index":"shakespeare","_id":208}}
+{"type":"line","line_id":209,"play_name":"Henry IV","speech_number":31,"line_number":"1.2.95","speaker":"FALSTAFF","text_entry":"Zounds, where thou wilt, lad; Ill make one; an I"}
+{"index":{"_index":"shakespeare","_id":209}}
+{"type":"line","line_id":210,"play_name":"Henry IV","speech_number":31,"line_number":"1.2.96","speaker":"FALSTAFF","text_entry":"do not, call me villain and baffle me."}
+{"index":{"_index":"shakespeare","_id":210}}
+{"type":"line","line_id":211,"play_name":"Henry IV","speech_number":32,"line_number":"1.2.97","speaker":"PRINCE HENRY","text_entry":"I see a good amendment of life in thee; from praying"}
+{"index":{"_index":"shakespeare","_id":211}}
+{"type":"line","line_id":212,"play_name":"Henry IV","speech_number":32,"line_number":"1.2.98","speaker":"PRINCE HENRY","text_entry":"to purse-taking."}
+{"index":{"_index":"shakespeare","_id":212}}
+{"type":"line","line_id":213,"play_name":"Henry IV","speech_number":33,"line_number":"1.2.99","speaker":"FALSTAFF","text_entry":"Why, Hal, tis my vocation, Hal; tis no sin for a"}
+{"index":{"_index":"shakespeare","_id":213}}
+{"type":"line","line_id":214,"play_name":"Henry IV","speech_number":33,"line_number":"1.2.100","speaker":"FALSTAFF","text_entry":"man to labour in his vocation."}
+{"index":{"_index":"shakespeare","_id":214}}
+{"type":"line","line_id":215,"play_name":"Henry IV","speech_number":33,"line_number":"","speaker":"FALSTAFF","text_entry":"Enter POINS"}
+{"index":{"_index":"shakespeare","_id":215}}
+{"type":"line","line_id":216,"play_name":"Henry IV","speech_number":33,"line_number":"1.2.101","speaker":"FALSTAFF","text_entry":"Poins! Now shall we know if Gadshill have set a"}
+{"index":{"_index":"shakespeare","_id":216}}
+{"type":"line","line_id":217,"play_name":"Henry IV","speech_number":33,"line_number":"1.2.102","speaker":"FALSTAFF","text_entry":"match. O, if men were to be saved by merit, what"}
+{"index":{"_index":"shakespeare","_id":217}}
+{"type":"line","line_id":218,"play_name":"Henry IV","speech_number":33,"line_number":"1.2.103","speaker":"FALSTAFF","text_entry":"hole in hell were hot enough for him? This is the"}
+{"index":{"_index":"shakespeare","_id":218}}
+{"type":"line","line_id":219,"play_name":"Henry IV","speech_number":33,"line_number":"1.2.104","speaker":"FALSTAFF","text_entry":"most omnipotent villain that ever cried Stand to"}
+{"index":{"_index":"shakespeare","_id":219}}
+{"type":"line","line_id":220,"play_name":"Henry IV","speech_number":33,"line_number":"1.2.105","speaker":"FALSTAFF","text_entry":"a true man."}
+{"index":{"_index":"shakespeare","_id":220}}
+{"type":"line","line_id":221,"play_name":"Henry IV","speech_number":34,"line_number":"1.2.106","speaker":"PRINCE HENRY","text_entry":"Good morrow, Ned."}
+{"index":{"_index":"shakespeare","_id":221}}
+{"type":"line","line_id":222,"play_name":"Henry IV","speech_number":35,"line_number":"1.2.107","speaker":"POINS","text_entry":"Good morrow, sweet Hal. What says Monsieur Remorse?"}
+{"index":{"_index":"shakespeare","_id":222}}
+{"type":"line","line_id":223,"play_name":"Henry IV","speech_number":35,"line_number":"1.2.108","speaker":"POINS","text_entry":"what says Sir John Sack and Sugar? Jack! how"}
+{"index":{"_index":"shakespeare","_id":223}}
+{"type":"line","line_id":224,"play_name":"Henry IV","speech_number":35,"line_number":"1.2.109","speaker":"POINS","text_entry":"agrees the devil and thee about thy soul, that thou"}
+{"index":{"_index":"shakespeare","_id":224}}
+{"type":"line","line_id":225,"play_name":"Henry IV","speech_number":35,"line_number":"1.2.110","speaker":"POINS","text_entry":"soldest him on Good-Friday last for a cup of Madeira"}
+{"index":{"_index":"shakespeare","_id":225}}
+{"type":"line","line_id":226,"play_name":"Henry IV","speech_number":35,"line_number":"1.2.111","speaker":"POINS","text_entry":"and a cold capons leg?"}
+{"index":{"_index":"shakespeare","_id":226}}
+{"type":"line","line_id":227,"play_name":"Henry IV","speech_number":36,"line_number":"1.2.112","speaker":"PRINCE HENRY","text_entry":"Sir John stands to his word, the devil shall have"}
+{"index":{"_index":"shakespeare","_id":227}}
+{"type":"line","line_id":228,"play_name":"Henry IV","speech_number":36,"line_number":"1.2.113","speaker":"PRINCE HENRY","text_entry":"his bargain; for he was never yet a breaker of"}
+{"index":{"_index":"shakespeare","_id":228}}
+{"type":"line","line_id":229,"play_name":"Henry IV","speech_number":36,"line_number":"1.2.114","speaker":"PRINCE HENRY","text_entry":"proverbs: he will give the devil his due."}
+{"index":{"_index":"shakespeare","_id":229}}
+{"type":"line","line_id":230,"play_name":"Henry IV","speech_number":37,"line_number":"1.2.115","speaker":"POINS","text_entry":"Then art thou damned for keeping thy word with the devil."}
+{"index":{"_index":"shakespeare","_id":230}}
+{"type":"line","line_id":231,"play_name":"Henry IV","speech_number":38,"line_number":"1.2.116","speaker":"PRINCE HENRY","text_entry":"Else he had been damned for cozening the devil."}
+{"index":{"_index":"shakespeare","_id":231}}
+{"type":"line","line_id":232,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.117","speaker":"POINS","text_entry":"But, my lads, my lads, to-morrow morning, by four"}
+{"index":{"_index":"shakespeare","_id":232}}
+{"type":"line","line_id":233,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.118","speaker":"POINS","text_entry":"oclock, early at Gadshill! there are pilgrims going"}
+{"index":{"_index":"shakespeare","_id":233}}
+{"type":"line","line_id":234,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.119","speaker":"POINS","text_entry":"to Canterbury with rich offerings, and traders"}
+{"index":{"_index":"shakespeare","_id":234}}
+{"type":"line","line_id":235,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.120","speaker":"POINS","text_entry":"riding to London with fat purses: I have vizards"}
+{"index":{"_index":"shakespeare","_id":235}}
+{"type":"line","line_id":236,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.121","speaker":"POINS","text_entry":"for you all; you have horses for yourselves:"}
+{"index":{"_index":"shakespeare","_id":236}}
+{"type":"line","line_id":237,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.122","speaker":"POINS","text_entry":"Gadshill lies to-night in Rochester: I have bespoke"}
+{"index":{"_index":"shakespeare","_id":237}}
+{"type":"line","line_id":238,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.123","speaker":"POINS","text_entry":"supper to-morrow night in Eastcheap: we may do it"}
+{"index":{"_index":"shakespeare","_id":238}}
+{"type":"line","line_id":239,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.124","speaker":"POINS","text_entry":"as secure as sleep. If you will go, I will stuff"}
+{"index":{"_index":"shakespeare","_id":239}}
+{"type":"line","line_id":240,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.125","speaker":"POINS","text_entry":"your purses full of crowns; if you will not, tarry"}
+{"index":{"_index":"shakespeare","_id":240}}
+{"type":"line","line_id":241,"play_name":"Henry IV","speech_number":39,"line_number":"1.2.126","speaker":"POINS","text_entry":"at home and be hanged."}
+{"index":{"_index":"shakespeare","_id":241}}
+{"type":"line","line_id":242,"play_name":"Henry IV","speech_number":40,"line_number":"1.2.127","speaker":"FALSTAFF","text_entry":"Hear ye, Yedward; if I tarry at home and go not,"}
+{"index":{"_index":"shakespeare","_id":242}}
+{"type":"line","line_id":243,"play_name":"Henry IV","speech_number":40,"line_number":"1.2.128","speaker":"FALSTAFF","text_entry":"Ill hang you for going."}
+{"index":{"_index":"shakespeare","_id":243}}
+{"type":"line","line_id":244,"play_name":"Henry IV","speech_number":41,"line_number":"1.2.129","speaker":"POINS","text_entry":"You will, chops?"}
+{"index":{"_index":"shakespeare","_id":244}}
+{"type":"line","line_id":245,"play_name":"Henry IV","speech_number":42,"line_number":"1.2.130","speaker":"FALSTAFF","text_entry":"Hal, wilt thou make one?"}
+{"index":{"_index":"shakespeare","_id":245}}
+{"type":"line","line_id":246,"play_name":"Henry IV","speech_number":43,"line_number":"1.2.131","speaker":"PRINCE HENRY","text_entry":"Who, I rob? I a thief? not I, by my faith."}
+{"index":{"_index":"shakespeare","_id":246}}
+{"type":"line","line_id":247,"play_name":"Henry IV","speech_number":44,"line_number":"1.2.132","speaker":"FALSTAFF","text_entry":"Theres neither honesty, manhood, nor good"}
+{"index":{"_index":"shakespeare","_id":247}}
+{"type":"line","line_id":248,"play_name":"Henry IV","speech_number":44,"line_number":"1.2.133","speaker":"FALSTAFF","text_entry":"fellowship in thee, nor thou camest not of the blood"}
+{"index":{"_index":"shakespeare","_id":248}}
+{"type":"line","line_id":249,"play_name":"Henry IV","speech_number":44,"line_number":"1.2.134","speaker":"FALSTAFF","text_entry":"royal, if thou darest not stand for ten shillings."}
+{"index":{"_index":"shakespeare","_id":249}}
+{"type":"line","line_id":250,"play_name":"Henry IV","speech_number":45,"line_number":"1.2.135","speaker":"PRINCE HENRY","text_entry":"Well then, once in my days Ill be a madcap."}
+{"index":{"_index":"shakespeare","_id":250}}
+{"type":"line","line_id":251,"play_name":"Henry IV","speech_number":46,"line_number":"1.2.136","speaker":"FALSTAFF","text_entry":"Why, thats well said."}
+{"index":{"_index":"shakespeare","_id":251}}
+{"type":"line","line_id":252,"play_name":"Henry IV","speech_number":47,"line_number":"1.2.137","speaker":"PRINCE HENRY","text_entry":"Well, come what will, Ill tarry at home."}
+{"index":{"_index":"shakespeare","_id":252}}
+{"type":"line","line_id":253,"play_name":"Henry IV","speech_number":48,"line_number":"1.2.138","speaker":"FALSTAFF","text_entry":"By the Lord, Ill be a traitor then, when thou art king."}
+{"index":{"_index":"shakespeare","_id":253}}
+{"type":"line","line_id":254,"play_name":"Henry IV","speech_number":49,"line_number":"1.2.139","speaker":"PRINCE HENRY","text_entry":"I care not."}
+{"index":{"_index":"shakespeare","_id":254}}
+{"type":"line","line_id":255,"play_name":"Henry IV","speech_number":50,"line_number":"1.2.140","speaker":"POINS","text_entry":"Sir John, I prithee, leave the prince and me alone:"}
+{"index":{"_index":"shakespeare","_id":255}}
+{"type":"line","line_id":256,"play_name":"Henry IV","speech_number":50,"line_number":"1.2.141","speaker":"POINS","text_entry":"I will lay him down such reasons for this adventure"}
+{"index":{"_index":"shakespeare","_id":256}}
+{"type":"line","line_id":257,"play_name":"Henry IV","speech_number":50,"line_number":"1.2.142","speaker":"POINS","text_entry":"that he shall go."}
+{"index":{"_index":"shakespeare","_id":257}}
+{"type":"line","line_id":258,"play_name":"Henry IV","speech_number":51,"line_number":"1.2.143","speaker":"FALSTAFF","text_entry":"Well, God give thee the spirit of persuasion and him"}
+{"index":{"_index":"shakespeare","_id":258}}
+{"type":"line","line_id":259,"play_name":"Henry IV","speech_number":51,"line_number":"1.2.144","speaker":"FALSTAFF","text_entry":"the ears of profiting, that what thou speakest may"}
+{"index":{"_index":"shakespeare","_id":259}}
+{"type":"line","line_id":260,"play_name":"Henry IV","speech_number":51,"line_number":"1.2.145","speaker":"FALSTAFF","text_entry":"move and what he hears may be believed, that the"}
+{"index":{"_index":"shakespeare","_id":260}}
+{"type":"line","line_id":261,"play_name":"Henry IV","speech_number":51,"line_number":"1.2.146","speaker":"FALSTAFF","text_entry":"true prince may, for recreation sake, prove a false"}
+{"index":{"_index":"shakespeare","_id":261}}
+{"type":"line","line_id":262,"play_name":"Henry IV","speech_number":51,"line_number":"1.2.147","speaker":"FALSTAFF","text_entry":"thief; for the poor abuses of the time want"}
+{"index":{"_index":"shakespeare","_id":262}}
+{"type":"line","line_id":263,"play_name":"Henry IV","speech_number":51,"line_number":"1.2.148","speaker":"FALSTAFF","text_entry":"countenance. Farewell: you shall find me in Eastcheap."}
+{"index":{"_index":"shakespeare","_id":263}}
+{"type":"line","line_id":264,"play_name":"Henry IV","speech_number":52,"line_number":"1.2.149","speaker":"PRINCE HENRY","text_entry":"Farewell, thou latter spring! farewell, All-hallown summer!"}
+{"index":{"_index":"shakespeare","_id":264}}
+{"type":"line","line_id":265,"play_name":"Henry IV","speech_number":52,"line_number":"","speaker":"PRINCE HENRY","text_entry":"Exit Falstaff"}
+{"index":{"_index":"shakespeare","_id":265}}
+{"type":"line","line_id":266,"play_name":"Henry IV","speech_number":53,"line_number":"1.2.150","speaker":"POINS","text_entry":"Now, my good sweet honey lord, ride with us"}
+{"index":{"_index":"shakespeare","_id":266}}
+{"type":"line","line_id":267,"play_name":"Henry IV","speech_number":53,"line_number":"1.2.151","speaker":"POINS","text_entry":"to-morrow: I have a jest to execute that I cannot"}
+{"index":{"_index":"shakespeare","_id":267}}
+{"type":"line","line_id":268,"play_name":"Henry IV","speech_number":53,"line_number":"1.2.152","speaker":"POINS","text_entry":"manage alone. Falstaff, Bardolph, Peto and Gadshill"}
+{"index":{"_index":"shakespeare","_id":268}}
+{"type":"line","line_id":269,"play_name":"Henry IV","speech_number":53,"line_number":"1.2.153","speaker":"POINS","text_entry":"shall rob those men that we have already waylaid:"}
+{"index":{"_index":"shakespeare","_id":269}}
+{"type":"line","line_id":270,"play_name":"Henry IV","speech_number":53,"line_number":"1.2.154","speaker":"POINS","text_entry":"yourself and I will not be there; and when they"}
+{"index":{"_index":"shakespeare","_id":270}}
+{"type":"line","line_id":271,"play_name":"Henry IV","speech_number":53,"line_number":"1.2.155","speaker":"POINS","text_entry":"have the booty, if you and I do not rob them, cut"}
+{"index":{"_index":"shakespeare","_id":271}}
+{"type":"line","line_id":272,"play_name":"Henry IV","speech_number":53,"line_number":"1.2.156","speaker":"POINS","text_entry":"this head off from my shoulders."}
+{"index":{"_index":"shakespeare","_id":272}}
+{"type":"line","line_id":273,"play_name":"Henry IV","speech_number":54,"line_number":"1.2.157","speaker":"PRINCE HENRY","text_entry":"How shall we part with them in setting forth?"}
+{"index":{"_index":"shakespeare","_id":273}}
+{"type":"line","line_id":274,"play_name":"Henry IV","speech_number":55,"line_number":"1.2.158","speaker":"POINS","text_entry":"Why, we will set forth before or after them, and"}
+{"index":{"_index":"shakespeare","_id":274}}
+{"type":"line","line_id":275,"play_name":"Henry IV","speech_number":55,"line_number":"1.2.159","speaker":"POINS","text_entry":"appoint them a place of meeting, wherein it is at"}
+{"index":{"_index":"shakespeare","_id":275}}
+{"type":"line","line_id":276,"play_name":"Henry IV","speech_number":55,"line_number":"1.2.160","speaker":"POINS","text_entry":"our pleasure to fail, and then will they adventure"}
+{"index":{"_index":"shakespeare","_id":276}}
+{"type":"line","line_id":277,"play_name":"Henry IV","speech_number":55,"line_number":"1.2.161","speaker":"POINS","text_entry":"upon the exploit themselves; which they shall have"}
+{"index":{"_index":"shakespeare","_id":277}}
+{"type":"line","line_id":278,"play_name":"Henry IV","speech_number":55,"line_number":"1.2.162","speaker":"POINS","text_entry":"no sooner achieved, but well set upon them."}
+{"index":{"_index":"shakespeare","_id":278}}
+{"type":"line","line_id":279,"play_name":"Henry IV","speech_number":56,"line_number":"1.2.163","speaker":"PRINCE HENRY","text_entry":"Yea, but tis like that they will know us by our"}
+{"index":{"_index":"shakespeare","_id":279}}
+{"type":"line","line_id":280,"play_name":"Henry IV","speech_number":56,"line_number":"1.2.164","speaker":"PRINCE HENRY","text_entry":"horses, by our habits and by every other"}
+{"index":{"_index":"shakespeare","_id":280}}
+{"type":"line","line_id":281,"play_name":"Henry IV","speech_number":56,"line_number":"1.2.165","speaker":"PRINCE HENRY","text_entry":"appointment, to be ourselves."}
+{"index":{"_index":"shakespeare","_id":281}}
+{"type":"line","line_id":282,"play_name":"Henry IV","speech_number":57,"line_number":"1.2.166","speaker":"POINS","text_entry":"Tut! our horses they shall not see: Ill tie them"}
+{"index":{"_index":"shakespeare","_id":282}}
+{"type":"line","line_id":283,"play_name":"Henry IV","speech_number":57,"line_number":"1.2.167","speaker":"POINS","text_entry":"in the wood; our vizards we will change after we"}
+{"index":{"_index":"shakespeare","_id":283}}
+{"type":"line","line_id":284,"play_name":"Henry IV","speech_number":57,"line_number":"1.2.168","speaker":"POINS","text_entry":"leave them: and, sirrah, I have cases of buckram"}
+{"index":{"_index":"shakespeare","_id":284}}
+{"type":"line","line_id":285,"play_name":"Henry IV","speech_number":57,"line_number":"1.2.169","speaker":"POINS","text_entry":"for the nonce, to immask our noted outward garments."}
+{"index":{"_index":"shakespeare","_id":285}}
+{"type":"line","line_id":286,"play_name":"Henry IV","speech_number":58,"line_number":"1.2.170","speaker":"PRINCE HENRY","text_entry":"Yea, but I doubt they will be too hard for us."}
+{"index":{"_index":"shakespeare","_id":286}}
+{"type":"line","line_id":287,"play_name":"Henry IV","speech_number":59,"line_number":"1.2.171","speaker":"POINS","text_entry":"Well, for two of them, I know them to be as"}
+{"index":{"_index":"shakespeare","_id":287}}
+{"type":"line","line_id":288,"play_name":"Henry IV","speech_number":59,"line_number":"1.2.172","speaker":"POINS","text_entry":"true-bred cowards as ever turned back; and for the"}
+{"index":{"_index":"shakespeare","_id":288}}
+{"type":"line","line_id":289,"play_name":"Henry IV","speech_number":59,"line_number":"1.2.173","speaker":"POINS","text_entry":"third, if he fight longer than he sees reason, Ill"}
+{"index":{"_index":"shakespeare","_id":289}}
+{"type":"line","line_id":290,"play_name":"Henry IV","speech_number":59,"line_number":"1.2.174","speaker":"POINS","text_entry":"forswear arms. The virtue of this jest will be, the"}
+{"index":{"_index":"shakespeare","_id":290}}
+{"type":"line","line_id":291,"play_name":"Henry IV","speech_number":59,"line_number":"1.2.175","speaker":"POINS","text_entry":"incomprehensible lies that this same fat rogue will"}
+{"index":{"_index":"shakespeare","_id":291}}
+{"type":"line","line_id":292,"play_name":"Henry IV","speech_number":59,"line_number":"1.2.176","speaker":"POINS","text_entry":"tell us when we meet at supper: how thirty, at"}
+{"index":{"_index":"shakespeare","_id":292}}
+{"type":"line","line_id":293,"play_name":"Henry IV","speech_number":59,"line_number":"1.2.177","speaker":"POINS","text_entry":"least, he fought with; what wards, what blows, what"}
+{"index":{"_index":"shakespeare","_id":293}}
+{"type":"line","line_id":294,"play_name":"Henry IV","speech_number":59,"line_number":"1.2.178","speaker":"POINS","text_entry":"extremities he endured; and in the reproof of this"}
+{"index":{"_index":"shakespeare","_id":294}}
+{"type":"line","line_id":295,"play_name":"Henry IV","speech_number":59,"line_number":"1.2.179","speaker":"POINS","text_entry":"lies the jest."}
+{"index":{"_index":"shakespeare","_id":295}}
+{"type":"line","line_id":296,"play_name":"Henry IV","speech_number":60,"line_number":"1.2.180","speaker":"PRINCE HENRY","text_entry":"Well, Ill go with thee: provide us all things"}
+{"index":{"_index":"shakespeare","_id":296}}
+{"type":"line","line_id":297,"play_name":"Henry IV","speech_number":60,"line_number":"1.2.181","speaker":"PRINCE HENRY","text_entry":"necessary and meet me to-morrow night in Eastcheap;"}
+{"index":{"_index":"shakespeare","_id":297}}
+{"type":"line","line_id":298,"play_name":"Henry IV","speech_number":60,"line_number":"1.2.182","speaker":"PRINCE HENRY","text_entry":"there Ill sup. Farewell."}
+{"index":{"_index":"shakespeare","_id":298}}
+{"type":"line","line_id":299,"play_name":"Henry IV","speech_number":61,"line_number":"1.2.183","speaker":"POINS","text_entry":"Farewell, my lord."}
+{"index":{"_index":"shakespeare","_id":299}}
+{"type":"line","line_id":300,"play_name":"Henry IV","speech_number":61,"line_number":"","speaker":"POINS","text_entry":"Exit Poins"}
+{"index":{"_index":"shakespeare","_id":300}}
+{"type":"line","line_id":301,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.184","speaker":"PRINCE HENRY","text_entry":"I know you all, and will awhile uphold"}
+{"index":{"_index":"shakespeare","_id":301}}
+{"type":"line","line_id":302,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.185","speaker":"PRINCE HENRY","text_entry":"The unyoked humour of your idleness:"}
+{"index":{"_index":"shakespeare","_id":302}}
+{"type":"line","line_id":303,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.186","speaker":"PRINCE HENRY","text_entry":"Yet herein will I imitate the sun,"}
+{"index":{"_index":"shakespeare","_id":303}}
+{"type":"line","line_id":304,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.187","speaker":"PRINCE HENRY","text_entry":"Who doth permit the base contagious clouds"}
+{"index":{"_index":"shakespeare","_id":304}}
+{"type":"line","line_id":305,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.188","speaker":"PRINCE HENRY","text_entry":"To smother up his beauty from the world,"}
+{"index":{"_index":"shakespeare","_id":305}}
+{"type":"line","line_id":306,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.189","speaker":"PRINCE HENRY","text_entry":"That, when he please again to be himself,"}
+{"index":{"_index":"shakespeare","_id":306}}
+{"type":"line","line_id":307,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.190","speaker":"PRINCE HENRY","text_entry":"Being wanted, he may be more wonderd at,"}
+{"index":{"_index":"shakespeare","_id":307}}
+{"type":"line","line_id":308,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.191","speaker":"PRINCE HENRY","text_entry":"By breaking through the foul and ugly mists"}
+{"index":{"_index":"shakespeare","_id":308}}
+{"type":"line","line_id":309,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.192","speaker":"PRINCE HENRY","text_entry":"Of vapours that did seem to strangle him."}
+{"index":{"_index":"shakespeare","_id":309}}
+{"type":"line","line_id":310,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.193","speaker":"PRINCE HENRY","text_entry":"If all the year were playing holidays,"}
+{"index":{"_index":"shakespeare","_id":310}}
+{"type":"line","line_id":311,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.194","speaker":"PRINCE HENRY","text_entry":"To sport would be as tedious as to work;"}
+{"index":{"_index":"shakespeare","_id":311}}
+{"type":"line","line_id":312,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.195","speaker":"PRINCE HENRY","text_entry":"But when they seldom come, they wishd for come,"}
+{"index":{"_index":"shakespeare","_id":312}}
+{"type":"line","line_id":313,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.196","speaker":"PRINCE HENRY","text_entry":"And nothing pleaseth but rare accidents."}
+{"index":{"_index":"shakespeare","_id":313}}
+{"type":"line","line_id":314,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.197","speaker":"PRINCE HENRY","text_entry":"So, when this loose behavior I throw off"}
+{"index":{"_index":"shakespeare","_id":314}}
+{"type":"line","line_id":315,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.198","speaker":"PRINCE HENRY","text_entry":"And pay the debt I never promised,"}
+{"index":{"_index":"shakespeare","_id":315}}
+{"type":"line","line_id":316,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.199","speaker":"PRINCE HENRY","text_entry":"By how much better than my word I am,"}
+{"index":{"_index":"shakespeare","_id":316}}
+{"type":"line","line_id":317,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.200","speaker":"PRINCE HENRY","text_entry":"By so much shall I falsify mens hopes;"}
+{"index":{"_index":"shakespeare","_id":317}}
+{"type":"line","line_id":318,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.201","speaker":"PRINCE HENRY","text_entry":"And like bright metal on a sullen ground,"}
+{"index":{"_index":"shakespeare","_id":318}}
+{"type":"line","line_id":319,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.202","speaker":"PRINCE HENRY","text_entry":"My reformation, glittering oer my fault,"}
+{"index":{"_index":"shakespeare","_id":319}}
+{"type":"line","line_id":320,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.203","speaker":"PRINCE HENRY","text_entry":"Shall show more goodly and attract more eyes"}
+{"index":{"_index":"shakespeare","_id":320}}
+{"type":"line","line_id":321,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.204","speaker":"PRINCE HENRY","text_entry":"Than that which hath no foil to set it off."}
+{"index":{"_index":"shakespeare","_id":321}}
+{"type":"line","line_id":322,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.205","speaker":"PRINCE HENRY","text_entry":"Ill so offend, to make offence a skill;"}
+{"index":{"_index":"shakespeare","_id":322}}
+{"type":"line","line_id":323,"play_name":"Henry IV","speech_number":62,"line_number":"1.2.206","speaker":"PRINCE HENRY","text_entry":"Redeeming time when men think least I will."}
+{"index":{"_index":"shakespeare","_id":323}}
+{"type":"line","line_id":324,"play_name":"Henry IV","speech_number":62,"line_number":"","speaker":"PRINCE HENRY","text_entry":"Exit"}
+{"index":{"_index":"shakespeare","_id":324}}
+{"type":"scene","line_id":325,"play_name":"Henry IV","speech_number":62,"line_number":"","speaker":"PRINCE HENRY","text_entry":"SCENE III. London. The palace."}
+{"index":{"_index":"shakespeare","_id":325}}
+{"type":"line","line_id":326,"play_name":"Henry IV","speech_number":62,"line_number":"","speaker":"PRINCE HENRY","text_entry":"Enter the KING, NORTHUMBERLAND, WORCESTER, HOTSPUR, SIR WALTER BLUNT, with others"}
+{"index":{"_index":"shakespeare","_id":326}}
+{"type":"line","line_id":327,"play_name":"Henry IV","speech_number":1,"line_number":"1.3.1","speaker":"KING HENRY IV","text_entry":"My blood hath been too cold and temperate,"}
+{"index":{"_index":"shakespeare","_id":327}}
+{"type":"line","line_id":328,"play_name":"Henry IV","speech_number":1,"line_number":"1.3.2","speaker":"KING HENRY IV","text_entry":"Unapt to stir at these indignities,"}
+{"index":{"_index":"shakespeare","_id":328}}
+{"type":"line","line_id":329,"play_name":"Henry IV","speech_number":1,"line_number":"1.3.3","speaker":"KING HENRY IV","text_entry":"And you have found me; for accordingly"}
+{"index":{"_index":"shakespeare","_id":329}}
+{"type":"line","line_id":330,"play_name":"Henry IV","speech_number":1,"line_number":"1.3.4","speaker":"KING HENRY IV","text_entry":"You tread upon my patience: but be sure"}
+{"index":{"_index":"shakespeare","_id":330}}
+{"type":"line","line_id":331,"play_name":"Henry IV","speech_number":1,"line_number":"1.3.5","speaker":"KING HENRY IV","text_entry":"I will from henceforth rather be myself,"}
+{"index":{"_index":"shakespeare","_id":331}}
+{"type":"line","line_id":332,"play_name":"Henry IV","speech_number":1,"line_number":"1.3.6","speaker":"KING HENRY IV","text_entry":"Mighty and to be feard, than my condition;"}
+{"index":{"_index":"shakespeare","_id":332}}
+{"type":"line","line_id":333,"play_name":"Henry IV","speech_number":1,"line_number":"1.3.7","speaker":"KING HENRY IV","text_entry":"Which hath been smooth as oil, soft as young down,"}
+{"index":{"_index":"shakespeare","_id":333}}
+{"type":"line","line_id":334,"play_name":"Henry IV","speech_number":1,"line_number":"1.3.8","speaker":"KING HENRY IV","text_entry":"And therefore lost that title of respect"}
+{"index":{"_index":"shakespeare","_id":334}}
+{"type":"line","line_id":335,"play_name":"Henry IV","speech_number":1,"line_number":"1.3.9","speaker":"KING HENRY IV","text_entry":"Which the proud soul neer pays but to the proud."}
+{"index":{"_index":"shakespeare","_id":335}}
+{"type":"line","line_id":336,"play_name":"Henry IV","speech_number":2,"line_number":"1.3.10","speaker":"EARL OF WORCESTER","text_entry":"Our house, my sovereign liege, little deserves"}
+{"index":{"_index":"shakespeare","_id":336}}
+{"type":"line","line_id":337,"play_name":"Henry IV","speech_number":2,"line_number":"1.3.11","speaker":"EARL OF WORCESTER","text_entry":"The scourge of greatness to be used on it;"}
+{"index":{"_index":"shakespeare","_id":337}}
+{"type":"line","line_id":338,"play_name":"Henry IV","speech_number":2,"line_number":"1.3.12","speaker":"EARL OF WORCESTER","text_entry":"And that same greatness too which our own hands"}
+{"index":{"_index":"shakespeare","_id":338}}
+{"type":"line","line_id":339,"play_name":"Henry IV","speech_number":2,"line_number":"1.3.13","speaker":"EARL OF WORCESTER","text_entry":"Have holp to make so portly."}
+{"index":{"_index":"shakespeare","_id":339}}
+{"type":"line","line_id":340,"play_name":"Henry IV","speech_number":3,"line_number":"1.3.14","speaker":"NORTHUMBERLAND","text_entry":"My lord.--"}
+{"index":{"_index":"shakespeare","_id":340}}
+{"type":"line","line_id":341,"play_name":"Henry IV","speech_number":4,"line_number":"1.3.15","speaker":"KING HENRY IV","text_entry":"Worcester, get thee gone; for I do see"}
+{"index":{"_index":"shakespeare","_id":341}}
+{"type":"line","line_id":342,"play_name":"Henry IV","speech_number":4,"line_number":"1.3.16","speaker":"KING HENRY IV","text_entry":"Danger and disobedience in thine eye:"}
+{"index":{"_index":"shakespeare","_id":342}}
+{"type":"line","line_id":343,"play_name":"Henry IV","speech_number":4,"line_number":"1.3.17","speaker":"KING HENRY IV","text_entry":"O, sir, your presence is too bold and peremptory,"}
+{"index":{"_index":"shakespeare","_id":343}}
+{"type":"line","line_id":344,"play_name":"Henry IV","speech_number":4,"line_number":"1.3.18","speaker":"KING HENRY IV","text_entry":"And majesty might never yet endure"}
+{"index":{"_index":"shakespeare","_id":344}}
+{"type":"line","line_id":345,"play_name":"Henry IV","speech_number":4,"line_number":"1.3.19","speaker":"KING HENRY IV","text_entry":"The moody frontier of a servant brow."}
+{"index":{"_index":"shakespeare","_id":345}}
+{"type":"line","line_id":346,"play_name":"Henry IV","speech_number":4,"line_number":"1.3.20","speaker":"KING HENRY IV","text_entry":"You have good leave to leave us: when we need"}
+{"index":{"_index":"shakespeare","_id":346}}
+{"type":"line","line_id":347,"play_name":"Henry IV","speech_number":4,"line_number":"1.3.21","speaker":"KING HENRY IV","text_entry":"Your use and counsel, we shall send for you."}
+{"index":{"_index":"shakespeare","_id":347}}
+{"type":"line","line_id":348,"play_name":"Henry IV","speech_number":4,"line_number":"","speaker":"KING HENRY IV","text_entry":"Exit Worcester"}
+{"index":{"_index":"shakespeare","_id":348}}
+{"type":"line","line_id":349,"play_name":"Henry IV","speech_number":4,"line_number":"1.3.22","speaker":"KING HENRY IV","text_entry":"You were about to speak."}
+{"index":{"_index":"shakespeare","_id":349}}
+{"type":"line","line_id":350,"play_name":"Henry IV","speech_number":4,"line_number":"","speaker":"KING HENRY IV","text_entry":"To North"}
+{"index":{"_index":"shakespeare","_id":350}}
+{"type":"line","line_id":351,"play_name":"Henry IV","speech_number":5,"line_number":"1.3.23","speaker":"NORTHUMBERLAND","text_entry":"Yea, my good lord."}
+{"index":{"_index":"shakespeare","_id":351}}
+{"type":"line","line_id":352,"play_name":"Henry IV","speech_number":5,"line_number":"1.3.24","speaker":"NORTHUMBERLAND","text_entry":"Those prisoners in your highness name demanded,"}
+{"index":{"_index":"shakespeare","_id":352}}
+{"type":"line","line_id":353,"play_name":"Henry IV","speech_number":5,"line_number":"1.3.25","speaker":"NORTHUMBERLAND","text_entry":"Which Harry Percy here at Holmedon took,"}
+{"index":{"_index":"shakespeare","_id":353}}
+{"type":"line","line_id":354,"play_name":"Henry IV","speech_number":5,"line_number":"1.3.26","speaker":"NORTHUMBERLAND","text_entry":"Were, as he says, not with such strength denied"}
+{"index":{"_index":"shakespeare","_id":354}}
+{"type":"line","line_id":355,"play_name":"Henry IV","speech_number":5,"line_number":"1.3.27","speaker":"NORTHUMBERLAND","text_entry":"As is deliverd to your majesty:"}
+{"index":{"_index":"shakespeare","_id":355}}
+{"type":"line","line_id":356,"play_name":"Henry IV","speech_number":5,"line_number":"1.3.28","speaker":"NORTHUMBERLAND","text_entry":"Either envy, therefore, or misprison"}
+{"index":{"_index":"shakespeare","_id":356}}
+{"type":"line","line_id":357,"play_name":"Henry IV","speech_number":5,"line_number":"1.3.29","speaker":"NORTHUMBERLAND","text_entry":"Is guilty of this fault and not my son."}
+{"index":{"_index":"shakespeare","_id":357}}
+{"type":"line","line_id":358,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.30","speaker":"HOTSPUR","text_entry":"My liege, I did deny no prisoners."}
+{"index":{"_index":"shakespeare","_id":358}}
+{"type":"line","line_id":359,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.31","speaker":"HOTSPUR","text_entry":"But I remember, when the fight was done,"}
+{"index":{"_index":"shakespeare","_id":359}}
+{"type":"line","line_id":360,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.32","speaker":"HOTSPUR","text_entry":"When I was dry with rage and extreme toil,"}
+{"index":{"_index":"shakespeare","_id":360}}
+{"type":"line","line_id":361,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.33","speaker":"HOTSPUR","text_entry":"Breathless and faint, leaning upon my sword,"}
+{"index":{"_index":"shakespeare","_id":361}}
+{"type":"line","line_id":362,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.34","speaker":"HOTSPUR","text_entry":"Came there a certain lord, neat, and trimly dressd,"}
+{"index":{"_index":"shakespeare","_id":362}}
+{"type":"line","line_id":363,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.35","speaker":"HOTSPUR","text_entry":"Fresh as a bridegroom; and his chin new reapd"}
+{"index":{"_index":"shakespeare","_id":363}}
+{"type":"line","line_id":364,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.36","speaker":"HOTSPUR","text_entry":"Showd like a stubble-land at harvest-home;"}
+{"index":{"_index":"shakespeare","_id":364}}
+{"type":"line","line_id":365,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.37","speaker":"HOTSPUR","text_entry":"He was perfumed like a milliner;"}
+{"index":{"_index":"shakespeare","_id":365}}
+{"type":"line","line_id":366,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.38","speaker":"HOTSPUR","text_entry":"And twixt his finger and his thumb he held"}
+{"index":{"_index":"shakespeare","_id":366}}
+{"type":"line","line_id":367,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.39","speaker":"HOTSPUR","text_entry":"A pouncet-box, which ever and anon"}
+{"index":{"_index":"shakespeare","_id":367}}
+{"type":"line","line_id":368,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.40","speaker":"HOTSPUR","text_entry":"He gave his nose and tookt away again;"}
+{"index":{"_index":"shakespeare","_id":368}}
+{"type":"line","line_id":369,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.41","speaker":"HOTSPUR","text_entry":"Who therewith angry, when it next came there,"}
+{"index":{"_index":"shakespeare","_id":369}}
+{"type":"line","line_id":370,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.42","speaker":"HOTSPUR","text_entry":"Took it in snuff; and still he smiled and talkd,"}
+{"index":{"_index":"shakespeare","_id":370}}
+{"type":"line","line_id":371,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.43","speaker":"HOTSPUR","text_entry":"And as the soldiers bore dead bodies by,"}
+{"index":{"_index":"shakespeare","_id":371}}
+{"type":"line","line_id":372,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.44","speaker":"HOTSPUR","text_entry":"He calld them untaught knaves, unmannerly,"}
+{"index":{"_index":"shakespeare","_id":372}}
+{"type":"line","line_id":373,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.45","speaker":"HOTSPUR","text_entry":"To bring a slovenly unhandsome corse"}
+{"index":{"_index":"shakespeare","_id":373}}
+{"type":"line","line_id":374,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.46","speaker":"HOTSPUR","text_entry":"Betwixt the wind and his nobility."}
+{"index":{"_index":"shakespeare","_id":374}}
+{"type":"line","line_id":375,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.47","speaker":"HOTSPUR","text_entry":"With many holiday and lady terms"}
+{"index":{"_index":"shakespeare","_id":375}}
+{"type":"line","line_id":376,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.48","speaker":"HOTSPUR","text_entry":"He questiond me; amongst the rest, demanded"}
+{"index":{"_index":"shakespeare","_id":376}}
+{"type":"line","line_id":377,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.49","speaker":"HOTSPUR","text_entry":"My prisoners in your majestys behalf."}
+{"index":{"_index":"shakespeare","_id":377}}
+{"type":"line","line_id":378,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.50","speaker":"HOTSPUR","text_entry":"I then, all smarting with my wounds being cold,"}
+{"index":{"_index":"shakespeare","_id":378}}
+{"type":"line","line_id":379,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.51","speaker":"HOTSPUR","text_entry":"To be so pesterd with a popinjay,"}
+{"index":{"_index":"shakespeare","_id":379}}
+{"type":"line","line_id":380,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.52","speaker":"HOTSPUR","text_entry":"Out of my grief and my impatience,"}
+{"index":{"_index":"shakespeare","_id":380}}
+{"type":"line","line_id":381,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.53","speaker":"HOTSPUR","text_entry":"Answerd neglectingly I know not what,"}
+{"index":{"_index":"shakespeare","_id":381}}
+{"type":"line","line_id":382,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.54","speaker":"HOTSPUR","text_entry":"He should or he should not; for he made me mad"}
+{"index":{"_index":"shakespeare","_id":382}}
+{"type":"line","line_id":383,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.55","speaker":"HOTSPUR","text_entry":"To see him shine so brisk and smell so sweet"}
+{"index":{"_index":"shakespeare","_id":383}}
+{"type":"line","line_id":384,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.56","speaker":"HOTSPUR","text_entry":"And talk so like a waiting-gentlewoman"}
+{"index":{"_index":"shakespeare","_id":384}}
+{"type":"line","line_id":385,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.57","speaker":"HOTSPUR","text_entry":"Of guns and drums and wounds,--God save the mark!--"}
+{"index":{"_index":"shakespeare","_id":385}}
+{"type":"line","line_id":386,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.58","speaker":"HOTSPUR","text_entry":"And telling me the sovereignst thing on earth"}
+{"index":{"_index":"shakespeare","_id":386}}
+{"type":"line","line_id":387,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.59","speaker":"HOTSPUR","text_entry":"Was parmaceti for an inward bruise;"}
+{"index":{"_index":"shakespeare","_id":387}}
+{"type":"line","line_id":388,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.60","speaker":"HOTSPUR","text_entry":"And that it was great pity, so it was,"}
+{"index":{"_index":"shakespeare","_id":388}}
+{"type":"line","line_id":389,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.61","speaker":"HOTSPUR","text_entry":"This villanous salt-petre should be diggd"}
+{"index":{"_index":"shakespeare","_id":389}}
+{"type":"line","line_id":390,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.62","speaker":"HOTSPUR","text_entry":"Out of the bowels of the harmless earth,"}
+{"index":{"_index":"shakespeare","_id":390}}
+{"type":"line","line_id":391,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.63","speaker":"HOTSPUR","text_entry":"Which many a good tall fellow had destroyd"}
+{"index":{"_index":"shakespeare","_id":391}}
+{"type":"line","line_id":392,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.64","speaker":"HOTSPUR","text_entry":"So cowardly; and but for these vile guns,"}
+{"index":{"_index":"shakespeare","_id":392}}
+{"type":"line","line_id":393,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.65","speaker":"HOTSPUR","text_entry":"He would himself have been a soldier."}
+{"index":{"_index":"shakespeare","_id":393}}
+{"type":"line","line_id":394,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.66","speaker":"HOTSPUR","text_entry":"This bald unjointed chat of his, my lord,"}
+{"index":{"_index":"shakespeare","_id":394}}
+{"type":"line","line_id":395,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.67","speaker":"HOTSPUR","text_entry":"I answerd indirectly, as I said;"}
+{"index":{"_index":"shakespeare","_id":395}}
+{"type":"line","line_id":396,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.68","speaker":"HOTSPUR","text_entry":"And I beseech you, let not his report"}
+{"index":{"_index":"shakespeare","_id":396}}
+{"type":"line","line_id":397,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.69","speaker":"HOTSPUR","text_entry":"Come current for an accusation"}
+{"index":{"_index":"shakespeare","_id":397}}
+{"type":"line","line_id":398,"play_name":"Henry IV","speech_number":6,"line_number":"1.3.70","speaker":"HOTSPUR","text_entry":"Betwixt my love and your high majesty."}
+{"index":{"_index":"shakespeare","_id":398}}
+{"type":"line","line_id":399,"play_name":"Henry IV","speech_number":7,"line_number":"1.3.71","speaker":"SIR WALTER BLUNT","text_entry":"The circumstance considerd, good my lord,"}
+{"index":{"_index":"shakespeare","_id":399}}
+{"type":"line","line_id":400,"play_name":"Henry IV","speech_number":7,"line_number":"1.3.72","speaker":"SIR WALTER BLUNT","text_entry":"Whateer Lord Harry Percy then had said"}
+{"index":{"_index":"shakespeare","_id":400}}
+{"type":"line","line_id":401,"play_name":"Henry IV","speech_number":7,"line_number":"1.3.73","speaker":"SIR WALTER BLUNT","text_entry":"To such a person and in such a place,"}
+{"index":{"_index":"shakespeare","_id":401}}
+{"type":"line","line_id":402,"play_name":"Henry IV","speech_number":7,"line_number":"1.3.74","speaker":"SIR WALTER BLUNT","text_entry":"At such a time, with all the rest retold,"}
+{"index":{"_index":"shakespeare","_id":402}}
+{"type":"line","line_id":403,"play_name":"Henry IV","speech_number":7,"line_number":"1.3.75","speaker":"SIR WALTER BLUNT","text_entry":"May reasonably die and never rise"}
+{"index":{"_index":"shakespeare","_id":403}}
+{"type":"line","line_id":404,"play_name":"Henry IV","speech_number":7,"line_number":"1.3.76","speaker":"SIR WALTER BLUNT","text_entry":"To do him wrong or any way impeach"}
+{"index":{"_index":"shakespeare","_id":404}}
+{"type":"line","line_id":405,"play_name":"Henry IV","speech_number":7,"line_number":"1.3.77","speaker":"SIR WALTER BLUNT","text_entry":"What then he said, so he unsay it now."}
+{"index":{"_index":"shakespeare","_id":405}}
+{"type":"line","line_id":406,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.78","speaker":"KING HENRY IV","text_entry":"Why, yet he doth deny his prisoners,"}
+{"index":{"_index":"shakespeare","_id":406}}
+{"type":"line","line_id":407,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.79","speaker":"KING HENRY IV","text_entry":"But with proviso and exception,"}
+{"index":{"_index":"shakespeare","_id":407}}
+{"type":"line","line_id":408,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.80","speaker":"KING HENRY IV","text_entry":"That we at our own charge shall ransom straight"}
+{"index":{"_index":"shakespeare","_id":408}}
+{"type":"line","line_id":409,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.81","speaker":"KING HENRY IV","text_entry":"His brother-in-law, the foolish Mortimer;"}
+{"index":{"_index":"shakespeare","_id":409}}
+{"type":"line","line_id":410,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.82","speaker":"KING HENRY IV","text_entry":"Who, on my soul, hath wilfully betrayd"}
+{"index":{"_index":"shakespeare","_id":410}}
+{"type":"line","line_id":411,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.83","speaker":"KING HENRY IV","text_entry":"The lives of those that he did lead to fight"}
+{"index":{"_index":"shakespeare","_id":411}}
+{"type":"line","line_id":412,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.84","speaker":"KING HENRY IV","text_entry":"Against that great magician, damnd Glendower,"}
+{"index":{"_index":"shakespeare","_id":412}}
+{"type":"line","line_id":413,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.85","speaker":"KING HENRY IV","text_entry":"Whose daughter, as we hear, the Earl of March"}
+{"index":{"_index":"shakespeare","_id":413}}
+{"type":"line","line_id":414,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.86","speaker":"KING HENRY IV","text_entry":"Hath lately married. Shall our coffers, then,"}
+{"index":{"_index":"shakespeare","_id":414}}
+{"type":"line","line_id":415,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.87","speaker":"KING HENRY IV","text_entry":"Be emptied to redeem a traitor home?"}
+{"index":{"_index":"shakespeare","_id":415}}
+{"type":"line","line_id":416,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.88","speaker":"KING HENRY IV","text_entry":"Shall we but treason? and indent with fears,"}
+{"index":{"_index":"shakespeare","_id":416}}
+{"type":"line","line_id":417,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.89","speaker":"KING HENRY IV","text_entry":"When they have lost and forfeited themselves?"}
+{"index":{"_index":"shakespeare","_id":417}}
+{"type":"line","line_id":418,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.90","speaker":"KING HENRY IV","text_entry":"No, on the barren mountains let him starve;"}
+{"index":{"_index":"shakespeare","_id":418}}
+{"type":"line","line_id":419,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.91","speaker":"KING HENRY IV","text_entry":"For I shall never hold that man my friend"}
+{"index":{"_index":"shakespeare","_id":419}}
+{"type":"line","line_id":420,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.92","speaker":"KING HENRY IV","text_entry":"Whose tongue shall ask me for one penny cost"}
+{"index":{"_index":"shakespeare","_id":420}}
+{"type":"line","line_id":421,"play_name":"Henry IV","speech_number":8,"line_number":"1.3.93","speaker":"KING HENRY IV","text_entry":"To ransom home revolted Mortimer."}
+{"index":{"_index":"shakespeare","_id":421}}
+{"type":"line","line_id":422,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.94","speaker":"HOTSPUR","text_entry":"Revolted Mortimer!"}
+{"index":{"_index":"shakespeare","_id":422}}
+{"type":"line","line_id":423,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.95","speaker":"HOTSPUR","text_entry":"He never did fall off, my sovereign liege,"}
+{"index":{"_index":"shakespeare","_id":423}}
+{"type":"line","line_id":424,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.96","speaker":"HOTSPUR","text_entry":"But by the chance of war; to prove that true"}
+{"index":{"_index":"shakespeare","_id":424}}
+{"type":"line","line_id":425,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.97","speaker":"HOTSPUR","text_entry":"Needs no more but one tongue for all those wounds,"}
+{"index":{"_index":"shakespeare","_id":425}}
+{"type":"line","line_id":426,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.98","speaker":"HOTSPUR","text_entry":"Those mouthed wounds, which valiantly he took"}
+{"index":{"_index":"shakespeare","_id":426}}
+{"type":"line","line_id":427,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.99","speaker":"HOTSPUR","text_entry":"When on the gentle Severns sedgy bank,"}
+{"index":{"_index":"shakespeare","_id":427}}
+{"type":"line","line_id":428,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.100","speaker":"HOTSPUR","text_entry":"In single opposition, hand to hand,"}
+{"index":{"_index":"shakespeare","_id":428}}
+{"type":"line","line_id":429,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.101","speaker":"HOTSPUR","text_entry":"He did confound the best part of an hour"}
+{"index":{"_index":"shakespeare","_id":429}}
+{"type":"line","line_id":430,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.102","speaker":"HOTSPUR","text_entry":"In changing hardiment with great Glendower:"}
+{"index":{"_index":"shakespeare","_id":430}}
+{"type":"line","line_id":431,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.103","speaker":"HOTSPUR","text_entry":"Three times they breathed and three times did"}
+{"index":{"_index":"shakespeare","_id":431}}
+{"type":"line","line_id":432,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.104","speaker":"HOTSPUR","text_entry":"they drink,"}
+{"index":{"_index":"shakespeare","_id":432}}
+{"type":"line","line_id":433,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.105","speaker":"HOTSPUR","text_entry":"Upon agreement, of swift Severns flood;"}
+{"index":{"_index":"shakespeare","_id":433}}
+{"type":"line","line_id":434,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.106","speaker":"HOTSPUR","text_entry":"Who then, affrighted with their bloody looks,"}
+{"index":{"_index":"shakespeare","_id":434}}
+{"type":"line","line_id":435,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.107","speaker":"HOTSPUR","text_entry":"Ran fearfully among the trembling reeds,"}
+{"index":{"_index":"shakespeare","_id":435}}
+{"type":"line","line_id":436,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.108","speaker":"HOTSPUR","text_entry":"And hid his crisp head in the hollow bank,"}
+{"index":{"_index":"shakespeare","_id":436}}
+{"type":"line","line_id":437,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.109","speaker":"HOTSPUR","text_entry":"Bloodstained with these valiant combatants."}
+{"index":{"_index":"shakespeare","_id":437}}
+{"type":"line","line_id":438,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.110","speaker":"HOTSPUR","text_entry":"Never did base and rotten policy"}
+{"index":{"_index":"shakespeare","_id":438}}
+{"type":"line","line_id":439,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.111","speaker":"HOTSPUR","text_entry":"Colour her working with such deadly wounds;"}
+{"index":{"_index":"shakespeare","_id":439}}
+{"type":"line","line_id":440,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.112","speaker":"HOTSPUR","text_entry":"Nor could the noble Mortimer"}
+{"index":{"_index":"shakespeare","_id":440}}
+{"type":"line","line_id":441,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.113","speaker":"HOTSPUR","text_entry":"Receive so many, and all willingly:"}
+{"index":{"_index":"shakespeare","_id":441}}
+{"type":"line","line_id":442,"play_name":"Henry IV","speech_number":9,"line_number":"1.3.114","speaker":"HOTSPUR","text_entry":"Then let not him be slanderd with revolt."}
+{"index":{"_index":"shakespeare","_id":442}}
+{"type":"line","line_id":443,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.115","speaker":"KING HENRY IV","text_entry":"Thou dost belie him, Percy, thou dost belie him;"}
+{"index":{"_index":"shakespeare","_id":443}}
+{"type":"line","line_id":444,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.116","speaker":"KING HENRY IV","text_entry":"He never did encounter with Glendower:"}
+{"index":{"_index":"shakespeare","_id":444}}
+{"type":"line","line_id":445,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.117","speaker":"KING HENRY IV","text_entry":"I tell thee,"}
+{"index":{"_index":"shakespeare","_id":445}}
+{"type":"line","line_id":446,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.118","speaker":"KING HENRY IV","text_entry":"He durst as well have met the devil alone"}
+{"index":{"_index":"shakespeare","_id":446}}
+{"type":"line","line_id":447,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.119","speaker":"KING HENRY IV","text_entry":"As Owen Glendower for an enemy."}
+{"index":{"_index":"shakespeare","_id":447}}
+{"type":"line","line_id":448,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.120","speaker":"KING HENRY IV","text_entry":"Art thou not ashamed? But, sirrah, henceforth"}
+{"index":{"_index":"shakespeare","_id":448}}
+{"type":"line","line_id":449,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.121","speaker":"KING HENRY IV","text_entry":"Let me not hear you speak of Mortimer:"}
+{"index":{"_index":"shakespeare","_id":449}}
+{"type":"line","line_id":450,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.122","speaker":"KING HENRY IV","text_entry":"Send me your prisoners with the speediest means,"}
+{"index":{"_index":"shakespeare","_id":450}}
+{"type":"line","line_id":451,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.123","speaker":"KING HENRY IV","text_entry":"Or you shall hear in such a kind from me"}
+{"index":{"_index":"shakespeare","_id":451}}
+{"type":"line","line_id":452,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.124","speaker":"KING HENRY IV","text_entry":"As will displease you. My Lord Northumberland,"}
+{"index":{"_index":"shakespeare","_id":452}}
+{"type":"line","line_id":453,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.125","speaker":"KING HENRY IV","text_entry":"We licence your departure with your son."}
+{"index":{"_index":"shakespeare","_id":453}}
+{"type":"line","line_id":454,"play_name":"Henry IV","speech_number":10,"line_number":"1.3.126","speaker":"KING HENRY IV","text_entry":"Send us your prisoners, or you will hear of it."}
+{"index":{"_index":"shakespeare","_id":454}}
+{"type":"line","line_id":455,"play_name":"Henry IV","speech_number":10,"line_number":"","speaker":"KING HENRY IV","text_entry":"Exeunt King Henry, Blunt, and train"}
+{"index":{"_index":"shakespeare","_id":455}}
+{"type":"line","line_id":456,"play_name":"Henry IV","speech_number":11,"line_number":"1.3.127","speaker":"HOTSPUR","text_entry":"An if the devil come and roar for them,"}
+{"index":{"_index":"shakespeare","_id":456}}
+{"type":"line","line_id":457,"play_name":"Henry IV","speech_number":11,"line_number":"1.3.128","speaker":"HOTSPUR","text_entry":"I will not send them: I will after straight"}
+{"index":{"_index":"shakespeare","_id":457}}
+{"type":"line","line_id":458,"play_name":"Henry IV","speech_number":11,"line_number":"1.3.129","speaker":"HOTSPUR","text_entry":"And tell him so; for I will ease my heart,"}
+{"index":{"_index":"shakespeare","_id":458}}
+{"type":"line","line_id":459,"play_name":"Henry IV","speech_number":11,"line_number":"1.3.130","speaker":"HOTSPUR","text_entry":"Albeit I make a hazard of my head."}
+{"index":{"_index":"shakespeare","_id":459}}
+{"type":"line","line_id":460,"play_name":"Henry IV","speech_number":12,"line_number":"1.3.131","speaker":"NORTHUMBERLAND","text_entry":"What, drunk with choler? stay and pause awhile:"}
+{"index":{"_index":"shakespeare","_id":460}}
+{"type":"line","line_id":461,"play_name":"Henry IV","speech_number":12,"line_number":"1.3.132","speaker":"NORTHUMBERLAND","text_entry":"Here comes your uncle."}
+{"index":{"_index":"shakespeare","_id":461}}
+{"type":"line","line_id":462,"play_name":"Henry IV","speech_number":12,"line_number":"","speaker":"NORTHUMBERLAND","text_entry":"Re-enter WORCESTER"}
+{"index":{"_index":"shakespeare","_id":462}}
+{"type":"line","line_id":463,"play_name":"Henry IV","speech_number":13,"line_number":"1.3.133","speaker":"HOTSPUR","text_entry":"Speak of Mortimer!"}
+{"index":{"_index":"shakespeare","_id":463}}
+{"type":"line","line_id":464,"play_name":"Henry IV","speech_number":13,"line_number":"1.3.134","speaker":"HOTSPUR","text_entry":"Zounds, I will speak of him; and let my soul"}
+{"index":{"_index":"shakespeare","_id":464}}
+{"type":"line","line_id":465,"play_name":"Henry IV","speech_number":13,"line_number":"1.3.135","speaker":"HOTSPUR","text_entry":"Want mercy, if I do not join with him:"}
+{"index":{"_index":"shakespeare","_id":465}}
+{"type":"line","line_id":466,"play_name":"Henry IV","speech_number":13,"line_number":"1.3.136","speaker":"HOTSPUR","text_entry":"Yea, on his part Ill empty all these veins,"}
+{"index":{"_index":"shakespeare","_id":466}}
+{"type":"line","line_id":467,"play_name":"Henry IV","speech_number":13,"line_number":"1.3.137","speaker":"HOTSPUR","text_entry":"And shed my dear blood drop by drop in the dust,"}
+{"index":{"_index":"shakespeare","_id":467}}
+{"type":"line","line_id":468,"play_name":"Henry IV","speech_number":13,"line_number":"1.3.138","speaker":"HOTSPUR","text_entry":"But I will lift the down-trod Mortimer"}
+{"index":{"_index":"shakespeare","_id":468}}
+{"type":"line","line_id":469,"play_name":"Henry IV","speech_number":13,"line_number":"1.3.139","speaker":"HOTSPUR","text_entry":"As high in the air as this unthankful king,"}
+{"index":{"_index":"shakespeare","_id":469}}
+{"type":"line","line_id":470,"play_name":"Henry IV","speech_number":13,"line_number":"1.3.140","speaker":"HOTSPUR","text_entry":"As this ingrate and cankerd Bolingbroke."}
+{"index":{"_index":"shakespeare","_id":470}}
+{"type":"line","line_id":471,"play_name":"Henry IV","speech_number":14,"line_number":"1.3.141","speaker":"NORTHUMBERLAND","text_entry":"Brother, the king hath made your nephew mad."}
+{"index":{"_index":"shakespeare","_id":471}}
+{"type":"line","line_id":472,"play_name":"Henry IV","speech_number":15,"line_number":"1.3.142","speaker":"EARL OF WORCESTER","text_entry":"Who struck this heat up after I was gone?"}
+{"index":{"_index":"shakespeare","_id":472}}
+{"type":"line","line_id":473,"play_name":"Henry IV","speech_number":16,"line_number":"1.3.143","speaker":"HOTSPUR","text_entry":"He will, forsooth, have all my prisoners;"}
+{"index":{"_index":"shakespeare","_id":473}}
+{"type":"line","line_id":474,"play_name":"Henry IV","speech_number":16,"line_number":"1.3.144","speaker":"HOTSPUR","text_entry":"And when I urged the ransom once again"}
+{"index":{"_index":"shakespeare","_id":474}}
+{"type":"line","line_id":475,"play_name":"Henry IV","speech_number":16,"line_number":"1.3.145","speaker":"HOTSPUR","text_entry":"Of my wifes brother, then his cheek lookd pale,"}
+{"index":{"_index":"shakespeare","_id":475}}
+{"type":"line","line_id":476,"play_name":"Henry IV","speech_number":16,"line_number":"1.3.146","speaker":"HOTSPUR","text_entry":"And on my face he turnd an eye of death,"}
+{"index":{"_index":"shakespeare","_id":476}}
+{"type":"line","line_id":477,"play_name":"Henry IV","speech_number":16,"line_number":"1.3.147","speaker":"HOTSPUR","text_entry":"Trembling even at the name of Mortimer."}
+{"index":{"_index":"shakespeare","_id":477}}
+{"type":"line","line_id":478,"play_name":"Henry IV","speech_number":17,"line_number":"1.3.148","speaker":"EARL OF WORCESTER","text_entry":"I cannot blame him: was not he proclaimd"}
+{"index":{"_index":"shakespeare","_id":478}}
+{"type":"line","line_id":479,"play_name":"Henry IV","speech_number":17,"line_number":"1.3.149","speaker":"EARL OF WORCESTER","text_entry":"By Richard that dead is the next of blood?"}
+{"index":{"_index":"shakespeare","_id":479}}
+{"type":"line","line_id":480,"play_name":"Henry IV","speech_number":18,"line_number":"1.3.150","speaker":"NORTHUMBERLAND","text_entry":"He was; I heard the proclamation:"}
+{"index":{"_index":"shakespeare","_id":480}}
+{"type":"line","line_id":481,"play_name":"Henry IV","speech_number":18,"line_number":"1.3.151","speaker":"NORTHUMBERLAND","text_entry":"And then it was when the unhappy king,"}
+{"index":{"_index":"shakespeare","_id":481}}
+{"type":"line","line_id":482,"play_name":"Henry IV","speech_number":18,"line_number":"1.3.152","speaker":"NORTHUMBERLAND","text_entry":"--Whose wrongs in us God pardon!--did set forth"}
+{"index":{"_index":"shakespeare","_id":482}}
+{"type":"line","line_id":483,"play_name":"Henry IV","speech_number":18,"line_number":"1.3.153","speaker":"NORTHUMBERLAND","text_entry":"Upon his Irish expedition;"}
+{"index":{"_index":"shakespeare","_id":483}}
+{"type":"line","line_id":484,"play_name":"Henry IV","speech_number":18,"line_number":"1.3.154","speaker":"NORTHUMBERLAND","text_entry":"From whence he intercepted did return"}
+{"index":{"_index":"shakespeare","_id":484}}
+{"type":"line","line_id":485,"play_name":"Henry IV","speech_number":18,"line_number":"1.3.155","speaker":"NORTHUMBERLAND","text_entry":"To be deposed and shortly murdered."}
+{"index":{"_index":"shakespeare","_id":485}}
+{"type":"line","line_id":486,"play_name":"Henry IV","speech_number":19,"line_number":"1.3.156","speaker":"EARL OF WORCESTER","text_entry":"And for whose death we in the worlds wide mouth"}
+{"index":{"_index":"shakespeare","_id":486}}
+{"type":"line","line_id":487,"play_name":"Henry IV","speech_number":19,"line_number":"1.3.157","speaker":"EARL OF WORCESTER","text_entry":"Live scandalized and foully spoken of."}
+{"index":{"_index":"shakespeare","_id":487}}
+{"type":"line","line_id":488,"play_name":"Henry IV","speech_number":20,"line_number":"1.3.158","speaker":"HOTSPUR","text_entry":"But soft, I pray you; did King Richard then"}
+{"index":{"_index":"shakespeare","_id":488}}
+{"type":"line","line_id":489,"play_name":"Henry IV","speech_number":20,"line_number":"1.3.159","speaker":"HOTSPUR","text_entry":"Proclaim my brother Edmund Mortimer"}
+{"index":{"_index":"shakespeare","_id":489}}
+{"type":"line","line_id":490,"play_name":"Henry IV","speech_number":20,"line_number":"1.3.160","speaker":"HOTSPUR","text_entry":"Heir to the crown?"}
+{"index":{"_index":"shakespeare","_id":490}}
+{"type":"line","line_id":491,"play_name":"Henry IV","speech_number":21,"line_number":"1.3.161","speaker":"NORTHUMBERLAND","text_entry":"He did; myself did hear it."}
+{"index":{"_index":"shakespeare","_id":491}}
+{"type":"line","line_id":492,"play_name":"Henry IV","speech_number":22,"line_number":"1.3.162","speaker":"HOTSPUR","text_entry":"Nay, then I cannot blame his cousin king,"}
+{"index":{"_index":"shakespeare","_id":492}}
+{"type":"line","line_id":493,"play_name":"Henry IV","speech_number":22,"line_number":"1.3.163","speaker":"HOTSPUR","text_entry":"That wished him on the barren mountains starve."}
+{"index":{"_index":"shakespeare","_id":493}}
+{"type":"line","line_id":494,"play_name":"Henry IV","speech_number":22,"line_number":"1.3.164","speaker":"HOTSPUR","text_entry":"But shall it be that you, that set the crown"}
+{"index":{"_index":"shakespeare","_id":494}}
+{"type":"line","line_id":495,"play_name":"Henry IV","speech_number":22,"line_number":"1.3.165","speaker":"HOTSPUR","text_entry":"Upon the head of this forgetful man"}
+{"index":{"_index":"shakespeare","_id":495}}
+{"type":"line","line_id":496,"play_name":"Henry IV","speech_number":22,"line_number":"1.3.166","speaker":"HOTSPUR","text_entry":"And for his sake wear the detested blot"}
+{"index":{"_index":"shakespeare","_id":496}}
+{"type":"line","line_id":497,"play_name":"Henry IV","speech_number":22,"line_number":"1.3.167","speaker":"HOTSPUR","text_entry":"Of murderous subornation, shall it be,"}
+{"index":{"_index":"shakespeare","_id":497}}
+{"type":"line","line_id":498,"play_name":"Henry IV","speech_number":22,"line_number":"1.3.168","speaker":"HOTSPUR","text_entry":"That you a world of curses undergo,"}
+{"index":{"_index":"shakespeare","_id":498}}
+{"type":"line","line_id":499,"play_name":"Henry IV","speech_number":22,"line_number":"1.3.169","speaker":"HOTSPUR","text_entry":"Being the agents, or base second means,"}
+{"index":{"_index":"shakespeare","_id":499}}
+{"type":"line","line_id":500,"play_name":"Henry IV","speech_number":22,"line_number":"1.3.170","speaker":"HOTSPUR","text_entry":"The cords, the ladder, or the hangman rather?"}
