@@ -16,7 +16,7 @@
       <div class="col-sm-12">
         <%= label_tag :dataset, 'Dataset', class: 'control-label' %>
         <%= select_tag :dataset,
-              options_for_select(([['', '']] + datasets.map {|d| [d.name, d.id] }).to_h, selected: index.metadata.dataset.id),
+              options_for_select(([['', '']] + datasets.map {|d| [d.name, d.id] }).to_h, selected: index.metadata.dataset.try(:id)),
               class: 'form-control' %>
       </div>
     </div>
