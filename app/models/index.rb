@@ -131,17 +131,14 @@ class Index
     res
   end
 
-  def update(index_params, dataset:)
+  def update(index_params, dataset_id:)
     index_params.each do |key, value|
       self.send("#{key}=", value)
     end
 
     if self.save
-      if dataset
-        update_dataset!(dataset)
-      else
-        true
-      end
+      update_dataset!(dataset_id)
+      true
     end
   end
 
@@ -185,11 +182,11 @@ class Index
     end
   end
 
-  def update_dataset!(name)
+  def update_dataset!(dataset_id)
     index_metadata = self.metadata
 
     if name
-      index_metadata.dataset = Dataset.where(name: name).take
+      index_metadata.dataset = Dataset.where(id: dataset_id).take
     else
       index_metadata.dataset = nil
     end

@@ -38,7 +38,7 @@ class IndicesController < ApplicationController
 
   # PATCH/PUT /indices/:id
   def update
-    if @index.update(index_params, dataset: params[:dataset])
+    if @index.update(index_params, dataset_id: params[:dataset].present? ? params[:dataset] : nil)
       res = reload_dataset(@index)
 
       if res.has_key?('error')
