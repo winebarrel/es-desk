@@ -43,7 +43,7 @@ ActiveRecord::Schema.define(version: 19700101000003) do
     t.string "index_name", null: false
     t.text "index_definition", null: false
     t.bigint "dataset_id"
-    t.text "dataset_preview", null: false
+    t.text "dataset_preview"
     t.text "query", null: false
     t.text "result", null: false
     t.datetime "created_at", null: false
