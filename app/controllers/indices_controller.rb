@@ -49,6 +49,7 @@ class IndicesController < ApplicationController
 
       redirect_to @index, message
     else
+      @datasets = Dataset.where(index_name: @index.name).order(:name)
       render :edit
     end
   end
