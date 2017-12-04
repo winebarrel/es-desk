@@ -28,6 +28,7 @@
 </section>
 <section>
   <div class="col-sm-12">
+    <%= link_to 'Destroy', @resultset, method: :delete, data: { confirm: 'Are you sure?' } %> |
     <%= link_to 'Back', resultsets_path %>
   </div>
 </section>
