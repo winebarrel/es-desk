@@ -8,6 +8,7 @@ class CreateResultsets < ActiveRecord::Migration[5.1]
       t.text :query, null: false
       t.text :result, null: false
       t.timestamps
+      t.index :created_at, name: 'idx_created_at'
     end
   end
 end

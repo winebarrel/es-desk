@@ -48,6 +48,7 @@ ActiveRecord::Schema.define(version: 19700101000003) do
     t.text "result", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["created_at"], name: "idx_created_at"
     t.index ["dataset_id"], name: "index_resultsets_on_dataset_id"
   end
 

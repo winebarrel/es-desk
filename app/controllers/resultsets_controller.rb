@@ -3,7 +3,7 @@ class ResultsetsController < ApplicationController
 
   # GET /resultsets
   def index
-    @resultsets = Resultset.order(:created_at).page(params[:page])
+    @resultsets = Resultset.order(created_at: :desc).page(params[:page])
   end
 
   # GET /resultsets/:id
