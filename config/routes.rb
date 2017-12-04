@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :resultsets, only: [:index, :show, :create]
+  resources :resultsets, only: [:index, :show, :create, :destroy]
   resources :queries
   resources :indices
   resources :datasets
