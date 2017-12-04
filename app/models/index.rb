@@ -121,7 +121,17 @@ class Index
 
   def truncate!
     self.reload! unless self.definition
-    res = Rails.application.config.elasticsearch.delete(self.name)
+    elasticsearch = Rails.application.config.elasticsearch
+    res = elasticsearch.delete(self.name)
+
+    if res.has_key?('error')
+      return res
+    end
+
+    parsed_definition = JSON.parse(self.definition)
+    parsed_definition = self.class.fix_definition(parsed_definition)
+
+    res = elasticsearch.create(JSON.dump(parsed_definition), index: self.name)
 
     if res.has_key?('error')
       return res

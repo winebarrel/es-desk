@@ -50,13 +50,18 @@ class DatasetsController < ApplicationController
   # POST /import/:id
   def import
     idx = @dataset.index
-    idx.truncate! if idx
+    truncate_res = idx.truncate! if idx
+    import_res = @dataset.import
 
-    res = @dataset.import
+    if truncate_res && truncate_res.has_key?('error')
+      error_res = truncate_res
+    elsif import_res.has_key?('error')
+      error_res = import_res
+    end
 
-    if res.has_key?('error')
-      Rails.logger.warn(res)
-      redirect_to @dataset, alert: res.inspect.truncate(256)
+    if error_res
+      Rails.logger.warn(error_res)
+      redirect_to @dataset, alert: error_res.inspect.truncate(256)
     else
       redirect_to @dataset, notice: 'Dataset was successfully imported.'
     end
