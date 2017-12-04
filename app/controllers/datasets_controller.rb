@@ -49,6 +49,9 @@ class DatasetsController < ApplicationController
 
   # POST /import/:id
   def import
+    idx = @dataset.index
+    idx.truncate! if idx
+
     res = @dataset.import
 
     if res.has_key?('error')

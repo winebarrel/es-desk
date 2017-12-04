@@ -16,8 +16,6 @@ class Dataset < ApplicationRecord
   end
 
   def import
-    idx = self.index
-    idx.truncate! if idx
     res = Rails.application.config.elasticsearch.bulk(data_with_action, index: self.index_name, type: self.document_type)
 
     unless res.has_key?('error')
