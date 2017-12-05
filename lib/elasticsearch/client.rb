@@ -38,7 +38,8 @@ module Elasticsearch
     def search(name, query:)
       curl = build_curl("#{name}/_search")
       curl.post_body = query
-      curl.http_get
+      # Is this okay?
+      curl.http_post
       JSON.parse(curl.body_str)
     end
 
