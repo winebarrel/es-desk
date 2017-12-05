@@ -29,6 +29,7 @@ class Index
   validates :name, presence: true
   validates :definition, presence: true
   validate :definition_should_be_valid_json
+  validate :definition_should_be_valid
 
   class << self
     def all
@@ -189,6 +190,21 @@ class Index
       JSON.parse(self.definition)
     rescue JSON::ParserError => e
       errors.add(:definition, " is invalid JSON: #{e.message}")
+    end
+  end
+
+  def definition_should_be_valid
+    elasticsearch = Rails.application.config.elasticsearch
+    temporary_index = self.name + '-' + SecureRandom.hex
+
+    begin
+      res = elasticsearch.create(self.definition, index: temporary_index)
+
+      if res.has_key?('error')
+        errors.add(:definition, " is invalid: #{res.inspect.truncate(256)}")
+      end
+    ensure
+      elasticsearch.delete(temporary_index)
     end
   end
 
