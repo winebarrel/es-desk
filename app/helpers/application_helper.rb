@@ -71,6 +71,8 @@ module ApplicationHelper
       <script type="text/javascript">
         var editor = ace.edit("#{id}");
         editor.getSession().setMode("ace/mode/json");
+        editor.getSession().setTabSize(2);
+        editor.getSession().setUseSoftTabs(true);
         #{readonly ? 'editor.setReadOnly(true);' : ''}
         #{hidden_field_script}
         $('##{id}').show();
