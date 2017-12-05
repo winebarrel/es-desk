@@ -15,8 +15,9 @@
       <thead>
         <tr>
           <th>Name</th>
-          <th>Index name</th>
-          <th>Document type</th>
+          <th>Index</th>
+          <th>Type</th>
+          <th>Count</th>
           <th>Data</th>
           <th colspan="3"></th>
         </tr>
@@ -27,6 +28,7 @@
             <td><%= link_to dataset.name, dataset %></td>
             <td><%= dataset_link_to_index(dataset) %></td>
             <td><%= dataset.document_type %></td>
+            <td><%= dataset.data_count %></td>
             <td><%= dataset.short_preview %></td>
             <td><%= link_to 'Import', datasets_import_path(id: dataset.id), method: :post, data: { confirm: "Are you sure you want to import '#{dataset.name}'?" } %></td>
             <td><%= link_to 'Copy', datasets_copy_path(id: dataset.id), method: :post %></td>

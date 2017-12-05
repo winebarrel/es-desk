@@ -43,6 +43,10 @@ class Dataset < ApplicationRecord
     }.join
   end
 
+  def data_count
+    self.data.each_line.count
+  end
+
   private
 
   def data_should_be_valid_ndjson
