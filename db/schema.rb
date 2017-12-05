@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 19700101000003) do
+ActiveRecord::Schema.define(version: 20171205102330) do
 
   create_table "datasets", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "name", null: false
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 19700101000003) do
     t.binary "data", limit: 16777215, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["index_name"], name: "idx_index_name"
     t.index ["name"], name: "idx_name", unique: true
   end
 
