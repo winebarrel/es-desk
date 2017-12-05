@@ -34,7 +34,7 @@
       <div class="form-group row">
         <div class="col-sm-12">
           <strong>Result</strong>
-          (Index: <%= link_to @index.name, index_path(@index) %>)
+          <small class="text-muted">(Index: <%= link_to @index.name, index_path(@index) %>)</small>
           <p>
             <%= json_editor(@resultset.result, id: 'result-viewer', readonly: true, name: 'resultset[result]') %>
           </p>
