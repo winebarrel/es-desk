@@ -1,5 +1,5 @@
 class DatasetsController < ApplicationController
-  before_action :set_dataset, only: [:show, :edit, :update, :destroy, :import]
+  before_action :set_dataset, only: [:show, :edit, :update, :destroy, :import, :download]
 
   # GET /datasets
   # GET /datasets.json
@@ -47,7 +47,7 @@ class DatasetsController < ApplicationController
     redirect_to datasets_url, notice: 'Dataset was successfully destroyed.'
   end
 
-  # POST /import/:id
+  # POST /import [id=:id]
   def import
     idx = @dataset.index
     truncate_res = idx.truncate! if idx
@@ -65,6 +65,11 @@ class DatasetsController < ApplicationController
     else
       redirect_to @dataset, notice: 'Dataset was successfully imported.'
     end
+  end
+
+  # GET /download [id=:id]
+  def download
+    send_data @dataset.data, filename: "#{@dataset.name}.json", type: :json
   end
 
   private

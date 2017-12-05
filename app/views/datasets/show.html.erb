@@ -27,6 +27,12 @@
       <%= ndjson_editor(@dataset.preview, readonly: true) %>
     </p>
   </div>
+  <div class="col-sm-12">
+    <%= button_to datasets_download_path, method: :post, class: 'btn btn-default' do %>
+      <%= hidden_field_tag :id, @dataset.id %>
+      Download
+    <% end %>
+  </div>
 </section>
 
 <section>
