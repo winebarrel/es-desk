@@ -201,7 +201,7 @@ class Index
       res = elasticsearch.create(self.definition, index: temporary_index)
 
       if res.has_key?('error')
-        errors.add(:definition, " is invalid: #{res.inspect.truncate(256)}")
+        errors.add(:definition, " is invalid: #{res.inspect.truncate(1024)}")
       end
     ensure
       elasticsearch.delete(temporary_index)
