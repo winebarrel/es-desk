@@ -15,5 +15,14 @@ class CreateQueries < ActiveRecord::Migration[5.1]
         }
       }
     JSON
+
+    Query.create!(name: 'match_none', query: <<-JSON.strip_heredoc)
+      {
+        "query": {
+          "match_none": {
+          }
+        }
+      }
+    JSON
   end
 end
