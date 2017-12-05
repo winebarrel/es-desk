@@ -1,5 +1,18 @@
 version: '3.1'
 services:
+  web:
+    build: .
+    command: bundle exec rails s -p 3000 -b '0.0.0.0'
+    volumes:
+      - .:/es-desk
+    ports:
+      - "3000:3000"
+    links:
+      - mysql
+      - elasticsearch
+    environment:
+      MYSQL_HOST: mysql
+      ELASTICSEARCH_ENDPOINT: elasticsearch:9200
   mysql:
     image: 'mysql:5.6'
     environment:
