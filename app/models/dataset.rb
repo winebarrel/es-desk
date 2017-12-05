@@ -35,6 +35,14 @@ class Dataset < ApplicationRecord
     self.data.each_line.take(1).fetch(0).truncate(64).chomp
   end
 
+  def data_with_metadata
+    metadata = {'index' => {'_index' => self.index_name, '_type' => self.document_type}}.to_json
+
+    self.data.each_line.map {|line|
+      metadata + "\n" + line
+    }.join
+  end
+
   private
 
   def data_should_be_valid_ndjson

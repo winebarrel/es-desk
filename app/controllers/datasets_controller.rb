@@ -69,7 +69,7 @@ class DatasetsController < ApplicationController
 
   # POST /datasets/download [id=:id]
   def download
-    send_data @dataset.data, filename: "#{@dataset.name}.json", type: :json
+    send_data @dataset.data_with_metadata, filename: "#{@dataset.name}.json", type: :json
   end
 
   # POST /datasets/copy [id=:id]
