@@ -66,13 +66,14 @@ module ApplicationHelper
 
 
     raw <<-HTML
-      <div id="#{id}">#{h data}</div>
+      <div id="#{id}" style="display: none;">#{h data}</div>
       #{name ? %!<input id="#{id}-input" name="#{name}" type="hidden">! : ''}
       <script type="text/javascript">
         var editor = ace.edit("#{id}");
         editor.getSession().setMode("ace/mode/json");
         #{readonly ? 'editor.setReadOnly(true);' : ''}
         #{hidden_field_script}
+        $('##{id}').show();
       </script>
     HTML
   end
@@ -83,12 +84,13 @@ module ApplicationHelper
     end
 
     raw <<-HTML
-      <div id="ndjson-editor">#{h data}</div>
+      <div id="ndjson-editor" style="display: none;">#{h data}</div>
       <script type="text/javascript">
         var editor = ace.edit("ndjson-editor");
         editor.getSession().setUseWorker(false)
         editor.getSession().setMode("ace/mode/json");
         #{readonly ? 'editor.setReadOnly(true);' : ''}
+        $('#ndjson-editor').show();
       </script>
     HTML
   end
