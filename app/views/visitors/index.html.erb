@@ -10,7 +10,7 @@
       <div class="col-sm-6">
         <%= label_tag :query, 'Query', class: 'control-label' %>
         <%= select_tag :query,
-              options_for_select(([['', '']] + @queries.map {|q| [q.name, q.id] }).to_h, selected: @query.try(:id)),
+              options_for_select(([['', '']] + @queries.map {|q| [q.name, q.id] }).to_h),
               class: 'form-control' %>
       </div>
     </div>
