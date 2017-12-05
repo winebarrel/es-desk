@@ -15,8 +15,8 @@ development:
   database: es-desk_development
   pool: 5
   username: root
-  password: 
-  host: 127.0.0.1
+  password:
+  host: <%= ENV['MYSQL_HOST'] || '127.0.0.1' %>
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -28,8 +28,8 @@ test:
   database: es-desk_test
   pool: 5
   username: root
-  password: 
-  host: 127.0.0.1
+  password:
+  host: <%= ENV['MYSQL_HOST'] || '127.0.0.1' %>
 
 production:
   adapter: mysql2
@@ -38,5 +38,5 @@ production:
   database: es-desk_production
   pool: 5
   username: root
-  password: 
-  host: 127.0.0.1
+  password:
+  host: <%= ENV['MYSQL_HOST'] || '127.0.0.1' %>

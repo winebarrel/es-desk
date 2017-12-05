@@ -10,9 +10,7 @@ docker-compose up
 ```
 
 ```sh
-bundle install
-bundle exec rails db:create db:migrate
-bundle exec rails server
+docker-compose exec web rake db:create db:migrate
 ```
 
 Then open [localhost:3000](http://localhost:3000/).
