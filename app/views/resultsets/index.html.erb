@@ -11,6 +11,7 @@
           <th>Dataset</th>
           <th>Index</th>
           <th>Query</th>
+          <th>Created at</th>
           <th colspan="2"></th>
         </tr>
       </thead>
@@ -21,6 +22,7 @@
             <td><%= rs_link_to_dataset(resultset) %></td>
             <td><%= rs_link_to_index(resultset) %></td>
             <td><%= resultset.query_preview %></td>
+            <td><%= resultset.created_at %></td>
             <td>
               <%= link_to 'Show', resultset %>
               <%= link_to resultset, target: '_blank' do %>

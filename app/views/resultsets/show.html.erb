@@ -1,4 +1,10 @@
 <section>
+  <div class="col-sm-12">
+    <p>
+      <strong>Created at:</strong>
+      <%= @resultset.created_at %>
+    </p>
+  </div>
   <div class="col-sm-6">
     <strong>Index:</strong>
     <%= rs_link_to_index(@resultset) %>
