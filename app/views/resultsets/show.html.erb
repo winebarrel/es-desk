@@ -1,18 +1,18 @@
 <section>
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <strong>Index:</strong>
     <%= rs_link_to_index(@resultset) %>
     <p>
       <%= json_editor(@resultset.index_definition, id: 'index-definition-viewer', readonly: true) %>
     </p>
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <strong>Query</strong>
     <p>
       <%= json_editor(@resultset.query, id: 'query-viewer', readonly: true) %>
     </p>
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-12">
     <strong>Result</strong>
     <p>
       <%= json_editor(@resultset.result, id: 'result-viewer', readonly: true) %>
