@@ -1,6 +1,6 @@
 # ES Desk
 
-It is an application for verifying [Elasticsearch](https://www.elastic.co/products/elasticsearch) index.
+It is an application for testing [Elasticsearch](https://www.elastic.co/products/elasticsearch) index.
 
 ## Demo
 
