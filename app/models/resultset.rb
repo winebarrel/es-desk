@@ -1,6 +1,8 @@
 class Resultset < ApplicationRecord
   belongs_to :dataset, required: false
 
+  validates :name, presence: true
+
   def index
     Index.find_by_name(self.index_name)
   end

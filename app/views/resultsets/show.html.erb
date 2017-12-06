@@ -1,8 +1,8 @@
 <section>
   <div class="col-sm-12">
     <p>
-      <strong>Created at:</strong>
-      <%= @resultset.created_at %>
+      <strong>Name:</strong>
+      <%= @resultset.name %>
     </p>
   </div>
   <div class="col-sm-6">
@@ -34,7 +34,8 @@
 </section>
 <section>
   <div class="col-sm-12">
-    <%= link_to 'Destroy', @resultset, method: :delete, data: { confirm: 'Are you sure?' } %> |
+    <%= link_to 'Edit Name', edit_resultset_path(@resultset) %> |
+    <%= link_to 'Destroy', @resultset, method: :delete, data: { confirm: "Are you sure you want to destroy '#{@resultset.name}'?" } %> |
     <%= link_to 'Back', resultsets_path %>
   </div>
 </section>

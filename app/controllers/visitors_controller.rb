@@ -22,6 +22,7 @@ class VisitorsController < ApplicationController
       dataset = @index.metadata.dataset
 
       @resultset = Resultset.new(
+        name: "#{@index.name} #{Time.now}",
         index_name: @index.name,
         dataset: dataset,
         dataset_preview: dataset.try(:preview),

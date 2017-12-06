@@ -1,0 +1,8 @@
+<div class="page-header">
+  <strong>Editing Resultset Name: <%= @resultset.name %></strong>
+</div>
+
+<%= render 'form', resultset: @resultset %>
+
+<%= link_to 'Show', @resultset %> |
+<%= link_to 'Back', resultsets_path %>

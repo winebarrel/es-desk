@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171205102330) do
+ActiveRecord::Schema.define(version: 20171206003352) do
 
   create_table "datasets", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "name", null: false
@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 20171205102330) do
   end
 
   create_table "resultsets", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name", null: false
     t.string "index_name", null: false
     t.text "index_definition", null: false
     t.bigint "dataset_id"

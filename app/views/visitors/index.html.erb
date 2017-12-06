@@ -28,6 +28,7 @@
 
   <% if @resultset %>
     <%= form_with(model: @resultset, local: true) do |form| %>
+      <%= form.hidden_field :name %>
       <%= form.hidden_field :index_name %>
       <%= form.hidden_field :dataset_id %>
       <%= form.hidden_field :query %>
