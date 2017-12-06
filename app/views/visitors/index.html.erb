@@ -22,7 +22,7 @@
     <div class="form-group row">
       <div class="col-sm-12">
         <%= submit_tag 'Search', class: 'btn btn-primary' %>
-        <%= button_to 'Save', new_query_path, method: :get, onclick: "this.form.action = '#{new_query_path}'", class: 'btn btn-default' %>
+        <%= button_to 'Save Query', new_query_path, method: :get, onclick: "this.form.action = '#{new_query_path}'", class: 'btn btn-default' %>
       </div>
     </div>
   <% end %>
@@ -44,7 +44,7 @@
       </div>
       <div class="form-group row">
         <div class="col-sm-12">
-          <%= submit_tag 'Save', class: 'btn btn-primary' %>
+          <%= submit_tag 'Save Result', class: 'btn btn-primary' %>
         </div>
       </div>
     <% end %>
