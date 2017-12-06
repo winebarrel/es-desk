@@ -29,3 +29,11 @@
     Dataset
   <% end %>
 </li>
+<% Rails.application.config.es_desk.fetch(:header_links).each do |label, url| %>
+  <li>
+    <%= link_to url, target: '_blank' do %>
+      <span class="glyphicon glyphicon-share"></span>
+      <%= label %>
+    <% end %>
+  </li>
+<% end %>
