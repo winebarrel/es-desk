@@ -55,7 +55,7 @@ class DatasetsController < ApplicationController
 
     if truncate_res && truncate_res.has_key?('error')
       error_res = truncate_res
-    elsif import_res.has_key?('error')
+    elsif import_res.has_key?('error') || import_res['errors']
       error_res = import_res
     end
 
