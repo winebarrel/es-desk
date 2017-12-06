@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   resources :resultsets, except: :new
   resources :queries
-  resources :indices
+  resources :indices do
+    get 'rename', to: 'indices#rename'
+    post 'update_name', to: 'indices#update_name'
+  end
   resources :datasets do
     get 'import', to: 'datasets#import'
     get 'download', to: 'datasets#download'

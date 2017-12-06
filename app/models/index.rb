@@ -183,6 +183,18 @@ class Index
     elasticsearch.search(self.name, query: query)
   end
 
+  def update_dataset!(dataset_id)
+    index_metadata = self.metadata
+
+    if name
+      index_metadata.dataset = Dataset.where(id: dataset_id).take
+    else
+      index_metadata.dataset = nil
+    end
+
+    index_metadata.save!
+  end
+
   private
 
   def definition_should_be_valid_json
@@ -206,17 +218,5 @@ class Index
     ensure
       elasticsearch.delete(temporary_index)
     end
-  end
-
-  def update_dataset!(dataset_id)
-    index_metadata = self.metadata
-
-    if name
-      index_metadata.dataset = Dataset.where(id: dataset_id).take
-    else
-      index_metadata.dataset = nil
-    end
-
-    index_metadata.save!
   end
 end

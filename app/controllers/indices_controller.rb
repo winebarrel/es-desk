@@ -1,5 +1,5 @@
 class IndicesController < ApplicationController
-  before_action :set_index, only: [:show, :edit, :update, :destroy]
+  before_action :set_index, only: [:show, :edit, :update, :destroy, :rename, :update_name]
 
   # GET /indices
   def index
@@ -36,6 +36,43 @@ class IndicesController < ApplicationController
     end
   end
 
+  # GET /indices/:index_id/rename
+  def rename
+  end
+
+  # POST /indices/:index_id/update_name
+  def update_name
+    new_name = params.fetch(:new_name)
+
+    if new_name == @index.name
+      redirect_to @index
+      return
+    end
+
+    @new_index = Index.new(name: new_name, definition: @index.definition)
+
+    if @new_index.save
+      ds = @index.metadata.dataset
+      message = {notice: 'Index was successfully updated.'}
+
+      if ds
+        @new_index.update_dataset!(ds.id)
+        Dataset.where(index_name: @index.name).update_all(index_name: @new_index.name)
+        @index.destroy
+        @index = @new_index
+        res = reload_dataset(@index)
+
+        if res.has_key?('error')
+          message = {alert: "Index was successfully created but Dataset import failed: #{res.inspect.truncate(256)}"}
+        end
+      end
+
+      redirect_to @index, message
+    else
+      render :rename
+    end
+  end
+
   # PATCH/PUT /indices/:id
   def update
     if @index.update(index_params, dataset_id: params[:dataset].present? ? params[:dataset] : nil)
@@ -64,7 +101,7 @@ class IndicesController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_index
-    @index = Index.find(params.fetch(:id))
+    @index = Index.find(params[:id] || params[:index_id])
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.

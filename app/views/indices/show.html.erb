@@ -20,6 +20,7 @@
   <div class="col-sm-12">
     <%= link_to 'Copy', new_index_path(copy: @index.name) %> |
     <%= link_to 'Edit', edit_index_path(@index.name) %> |
+    <%= link_to 'Rename', index_rename_path(@index.name) %> |
     <%= link_to 'Destroy', @index, method: :delete, data: { confirm: "Are you sure you want to destroy '#{@index.name}'?" } %> |
     <%= link_to 'Back', indices_path %>
   </div>

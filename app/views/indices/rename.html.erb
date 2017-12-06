@@ -1,0 +1,36 @@
+<div class="page-header">
+  <strong>Renaming Index: <%= @index.name %></strong>
+</div>
+
+<% if @new_index && @new_index.errors.any? %>
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <div class="alert alert-danger">
+        <% @new_index.errors.full_messages.each do |message| %>
+          <%= message %><br/>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<%= form_with(url: index_update_name_path(@index), local: true) do %>
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <%= label_tag :new_name, 'New Name', class: 'control-label' %>
+      <%= text_field_tag :new_name, @new_index.try(:name) || @index.name, id: :index_new_name, class: 'form-control' %>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <%= submit_tag 'Rename Index', class: 'btn btn-primary' %>
+    </div>
+  </div>
+<% end %>
+
+<section>
+  <div class="col-sm-12">
+    <%= link_to 'Show', index_path(@index.name) %> |
+    <%= link_to 'Back', indices_path %>
+  </div>
+</section>
