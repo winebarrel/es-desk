@@ -24,7 +24,7 @@ module Elasticsearch
     end
 
     def create(definition, index:)
-      curl = build_curl(index)
+      curl = build_curl(index, 'Content-Type' => 'application/json')
       curl.http_put(definition)
       JSON.parse(curl.body_str)
     end
@@ -36,7 +36,7 @@ module Elasticsearch
     end
 
     def search(name, query:)
-      curl = build_curl("#{name}/_search")
+      curl = build_curl("#{name}/_search", 'Content-Type' => 'application/json')
       curl.post_body = query
       # Is this okay?
       curl.http_post
