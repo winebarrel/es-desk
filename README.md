@@ -2,6 +2,9 @@
 
 It is an application for verifying [Elasticsearch](https://www.elastic.co/products/elasticsearch) index.
 
+## Demo
+
+https://fathomless-reaches-48520.herokuapp.com/
 
 ## Getting Started
 
