@@ -61,7 +61,7 @@ class DatasetsController < ApplicationController
 
     if error_res
       Rails.logger.warn(error_res)
-      redirect_to @dataset, alert: error_res.inspect.truncate(256)
+      redirect_to @dataset, alert: error_res.inspect.truncate(1024)
     else
       redirect_to @dataset, notice: 'Dataset was successfully imported.'
     end

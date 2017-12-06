@@ -54,7 +54,7 @@ class Dataset < ApplicationRecord
       head = self.data.read(VARIDATE_BUFSIZE) || ''
 
       unless head.strip =~ /\A{/
-        errors.add(:data, " is invalid NDJSON: #{head.inspect.truncate(64)}")
+        errors.add(:data, " is invalid NDJSON: #{head.inspect.truncate(256)}")
       end
 
       file = self.data.open
