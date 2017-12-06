@@ -39,6 +39,30 @@
       <%= form.text_field :index_name, id: :dataset_index_name, class: 'form-control' %>
     </div>
   </div>
+  <script type="text/javascript">
+    $('#dataset_index_name').typeahead(
+      {
+        hint: false,
+        highlight: true,
+        minLength: 1
+      },
+      {
+        source: function(q, cb) {
+          var indices = [<%= raw @indices.map {|i| %!"#{j(i.name)}"! }.join(',') %>];
+          var matches = [];
+          var substrRegex = new RegExp(q, 'i');
+
+          $.each(indices, function(i, str) {
+            if (substrRegex.test(str)) {
+              matches.push(str);
+            }
+          });
+
+          cb(matches);
+        }
+      }
+    );
+  </script>
   <div class="form-group row">
     <div class="col-sm-12">
       <%= form.label :document_type, class: 'control-label' %>

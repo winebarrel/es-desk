@@ -15,10 +15,12 @@ class DatasetsController < ApplicationController
   # GET /datasets/new
   def new
     @dataset = Dataset.new
+    @indices = Index.all
   end
 
   # GET /datasets/:id/edit
   def edit
+    @indices = Index.all
   end
 
   # POST /datasets
