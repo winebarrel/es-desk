@@ -47,7 +47,7 @@ class DatasetsController < ApplicationController
     redirect_to datasets_url, notice: 'Dataset was successfully destroyed.'
   end
 
-  # POST /datasets/import [id=:id]
+  # GET /datasets/:dataset_id/import
   def import
     idx = @dataset.index
     truncate_res = idx.truncate! if idx
@@ -67,12 +67,12 @@ class DatasetsController < ApplicationController
     end
   end
 
-  # POST /datasets/download [id=:id]
+  # GET /datasets/:dataset_id/download
   def download
     send_data @dataset.data_with_metadata, filename: "#{@dataset.name}.json", type: :json
   end
 
-  # POST /datasets/copy [id=:id]
+  # GET /datasets/:dataset_id/copy
   def copy
     new_ds = Dataset.new do |ds|
       ds.name = @dataset.name + '-copy'
@@ -94,7 +94,7 @@ class DatasetsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_dataset
-    @dataset = Dataset.find(params[:id])
+    @dataset = Dataset.find(params[:id] || params[:dataset_id])
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.
