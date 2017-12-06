@@ -34,3 +34,4 @@ end
 
 gem 'curb'
 gem 'kaminari'
+gem 'twitter-typeahead-rails'
