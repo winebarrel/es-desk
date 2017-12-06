@@ -74,14 +74,7 @@ class DatasetsController < ApplicationController
 
   # GET /datasets/:dataset_id/copy
   def copy
-    new_ds = Dataset.new do |ds|
-      ds.name = @dataset.name + '-copy'
-      ds.index_name = @dataset.index_name
-      ds.document_type = @dataset.document_type
-      ds.data = @dataset.data
-    end
-
-    @dataset = new_ds
+    @dataset = @dataset.copy_to(@dataset.name + '-copy')
 
     if disable_sql_logging { @dataset.save }
       redirect_to @dataset, notice: 'Dataset was successfully created.'

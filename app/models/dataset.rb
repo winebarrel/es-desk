@@ -47,6 +47,15 @@ class Dataset < ApplicationRecord
     self.data.each_line.count
   end
 
+  def copy_to(name)
+    self.class.new do |ds|
+      ds.name = name
+      ds.index_name = self.index_name
+      ds.document_type = self.document_type
+      ds.data = self.data
+    end
+  end
+
   private
 
   def data_should_be_valid_ndjson
