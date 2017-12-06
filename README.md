@@ -4,7 +4,7 @@ It is an application for testing [Elasticsearch](https://www.elastic.co/products
 
 ## Demo
 
-https://fathomless-reaches-48520.herokuapp.com/
+http://es-desk.winebarrel.jp/
 
 ## Getting Started
 
