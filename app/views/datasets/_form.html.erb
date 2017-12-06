@@ -48,7 +48,7 @@
       },
       {
         source: function(q, cb) {
-          var indices = [<%= raw @indices.map {|i| %!"#{j(i.name)}"! }.join(',') %>];
+          var indices = [<%= raw Index.all.map {|i| %!"#{j(i.name)}"! }.join(',') %>];
           var matches = [];
           var substrRegex = new RegExp(q, 'i');
 

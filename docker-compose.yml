@@ -20,9 +20,16 @@ services:
       - TZ=Asia/Tokyo
     ports:
      - '3306:3306'
+    volumes:
+      - mysql-data:/var/lib/mysql
   elasticsearch:
     image: 'elasticsearch:5.5'
     environment:
       - 'ES_JAVA_OPTS=-Xms128m -Xmx128m'
     ports:
      - '9200:9200'
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+volumes:
+  mysql-data: ~
+  elasticsearch-data: ~
