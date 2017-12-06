@@ -18,6 +18,10 @@ class QueriesController < ApplicationController
       q = Query.find(params[:copy])
       @query.query = q.query
     end
+
+    if params[:search]
+      @query.query = params[:search]
+    end
   end
 
   # GET /queries/:id/edit
