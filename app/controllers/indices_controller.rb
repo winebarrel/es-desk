@@ -78,7 +78,7 @@ class IndicesController < ApplicationController
     if @index.update(index_params, dataset_id: params[:dataset].present? ? params[:dataset] : nil)
       res = reload_dataset(@index)
 
-      if res.has_key?('error')
+      if res.has_key?('error') || res['errors']
         message = {alert: "Index was successfully created but Dataset import failed: #{res.inspect.truncate(256)}"}
       else
         message = {notice: 'Index was successfully updated.'}
