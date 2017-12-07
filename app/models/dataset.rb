@@ -11,6 +11,15 @@ class Dataset < ApplicationRecord
 
   before_save :read_file
 
+  class << self
+    def select_for_preview
+      self.select(
+        *(self.column_names - ['data']),
+        "LEFT(data, #{SHORT_PREVIEW_LEN + 1}) AS data"
+      )
+    end
+  end # of class methods
+
   def index
     Index.find_by_name(self.index_name)
   end

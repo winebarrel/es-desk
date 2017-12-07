@@ -4,7 +4,7 @@ class DatasetsController < ApplicationController
   # GET /datasets
   # GET /datasets.json
   def index
-    @datasets = Dataset.order(:name).page(params[:page])
+    @datasets = Dataset.select_for_preview.order(:name).page(params[:page])
   end
 
   # GET /datasets/1
