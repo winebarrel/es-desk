@@ -2,6 +2,7 @@ class Dataset < ApplicationRecord
   VARIDATE_BUFSIZE = 32
   EMPTY_ACTION = '{"index":{}}'
   SHORT_PREVIEW_LEN = 64
+  PREVIEW_LINES = 10
 
   validates :name, presence: true, uniqueness: true
   validates :index_name, presence: true
@@ -37,7 +38,7 @@ class Dataset < ApplicationRecord
   end
 
   def preview
-    self.data.each_line.take(10).join
+    self.data.each_line.take(PREVIEW_LINES).join
   end
 
   def short_preview
