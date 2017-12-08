@@ -26,7 +26,7 @@ class Index
 
   attr_accessor :persisted
 
-  validates :name, presence: true
+  validates :name, presence: true, format: { with: /\A[-\w]+\z/ }
   validates :definition, presence: true
   validate :definition_should_be_valid_json
   validate :definition_should_be_valid
