@@ -5,7 +5,7 @@ class Dataset < ApplicationRecord
   PREVIEW_LINES = 10
 
   validates :name, presence: true, uniqueness: true
-  validates :index_name, presence: true
+  validates :index_name, presence: true, format: { with: /\A[-\w]+\z/ }
   validates :document_type, presence: true
   validates :data, presence: true
   validate :data_should_be_valid_ndjson
