@@ -47,7 +47,7 @@ class Index
     def find(index_name)
       idx = Rails.application.config.elasticsearch.index(index_name)
 
-      if idx.has_key?('error')
+      if Elasticsearch::Client.has_error?(idx)
         raise IndexNotFound.new(index_name, idx)
       end
 
@@ -59,7 +59,7 @@ class Index
     def find_by_name(index_name)
       idx = Rails.application.config.elasticsearch.index(index_name)
 
-      if idx.has_key?('error')
+      if Elasticsearch::Client.has_error?(idx)
         nil
       else
         self.new(name: index_name, definition: JSON.pretty_generate(idx.fetch(index_name)), persisted: true)
@@ -106,7 +106,7 @@ class Index
   def destroy
     res = Rails.application.config.elasticsearch.delete(self.name)
 
-    unless res.has_key?('error')
+    unless Elasticsearch::Client.has_error?(res)
       IndexMetadatum.where(index_name: self.name).delete_all
     end
 
@@ -125,7 +125,7 @@ class Index
     elasticsearch = Rails.application.config.elasticsearch
     res = elasticsearch.delete(self.name)
 
-    if res.has_key?('error')
+    if Elasticsearch::Client.has_error?(res)
       return res
     end
 
@@ -134,7 +134,7 @@ class Index
 
     res = elasticsearch.create(JSON.dump(parsed_definition), index: self.name)
 
-    if res.has_key?('error')
+    if Elasticsearch::Client.has_error?(res)
       return res
     end
 
@@ -160,7 +160,7 @@ class Index
       if self.persisted?
         res = elasticsearch.delete(self.name)
 
-        if res.has_key?('error')
+        if Elasticsearch::Client.has_error?(res)
           errors.add(:definition, " could not be deleted: #{res.inspect.truncate(256)}")
           return false
         end
@@ -168,8 +168,7 @@ class Index
 
       res = elasticsearch.create(self.definition, index: self.name)
 
-      if res.has_key?('error')
-        Rails.logger.warn(res)
+      if Elasticsearch::Client.has_error?(res)
         errors.add(:definition, " could not be created: #{res.inspect.truncate(256)}")
         return false
       end
@@ -212,7 +211,7 @@ class Index
     begin
       res = elasticsearch.create(self.definition, index: temporary_index)
 
-      if res.has_key?('error')
+      if Elasticsearch::Client.has_error?(res)
         errors.add(:definition, " is invalid: #{res.inspect.truncate(1024)}")
       end
     ensure

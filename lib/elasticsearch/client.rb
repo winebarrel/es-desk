@@ -1,5 +1,21 @@
 module Elasticsearch
   class Client
+    class << self
+      def has_error?(res)
+        has_e = res.has_key?('error') || !!res['errors']
+
+        if has_e
+          if res.has_key?('items')
+            res.fetch('items').reject! {|i| i.dig('index', 'status') == 201 }
+          end
+
+          Rails.logger.debug(res)
+        end
+
+        has_e
+      end
+    end # of class methods
+
     def initialize(endpoint)
       @endpoint = endpoint
     end

@@ -28,7 +28,7 @@ class Dataset < ApplicationRecord
   def import
     res = Rails.application.config.elasticsearch.bulk(data_with_action, index: self.index_name, type: self.document_type)
 
-    if !res.has_key?('error') && !res['errors'] && self.index
+    if !Elasticsearch::Client.has_error?(res) && self.index
       index_metadata = self.index.metadata
       index_metadata.dataset = self
       index_metadata.save!

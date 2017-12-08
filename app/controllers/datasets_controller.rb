@@ -53,14 +53,13 @@ class DatasetsController < ApplicationController
     truncate_res = idx.truncate! if idx
     import_res = @dataset.import
 
-    if truncate_res && truncate_res.has_key?('error')
+    if truncate_res && Elasticsearch::Client.has_error?(truncate_res)
       error_res = truncate_res
-    elsif import_res.has_key?('error') || import_res['errors']
+    elsif Elasticsearch::Client.has_error?(import_res)
       error_res = import_res
     end
 
     if error_res
-      Rails.logger.warn(error_res)
       redirect_to @dataset, alert: error_res.inspect.truncate(1024)
     else
       redirect_to @dataset, notice: 'Dataset was successfully imported.'
