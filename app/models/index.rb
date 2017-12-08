@@ -26,7 +26,8 @@ class Index
 
   attr_accessor :persisted
 
-  validates :name, presence: true, format: { with: /\A[-\w]+\z/ }
+  INDEX_NAME_FORMAT = /\A[-\w]+\z/
+  validates :name, presence: true, format: { with: INDEX_NAME_FORMAT }
   validates :definition, presence: true
   validate :definition_should_be_valid_json
   validate :definition_should_be_valid
@@ -205,17 +206,19 @@ class Index
   end
 
   def definition_should_be_valid
-    elasticsearch = Rails.application.config.elasticsearch
-    temporary_index = self.name + '-' + SecureRandom.hex
+    if self.name =~ Index::INDEX_NAME_FORMAT
+      elasticsearch = Rails.application.config.elasticsearch
+      temporary_index = self.name + '-' + SecureRandom.hex
 
-    begin
-      res = elasticsearch.create(self.definition, index: temporary_index)
+      begin
+        res = elasticsearch.create(self.definition, index: temporary_index)
 
-      if Elasticsearch::Client.has_error?(res)
-        errors.add(:definition, " is invalid: #{res.inspect.truncate(1024)}")
+        if Elasticsearch::Client.has_error?(res)
+          errors.add(:definition, " is invalid: #{res.inspect.truncate(1024)}")
+        end
+      ensure
+        elasticsearch.delete(temporary_index)
       end
-    ensure
-      elasticsearch.delete(temporary_index)
     end
   end
 end
