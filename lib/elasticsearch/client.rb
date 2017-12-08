@@ -27,32 +27,32 @@ module Elasticsearch
     end
 
     def index(name)
-      curl = build_curl(name)
+      curl = build_curl(URI.escape(name))
       curl.http_get
       JSON.parse(curl.body_str)
     end
 
     def bulk(data, index:, type:)
-      curl = build_curl("#{index}/#{type}/_bulk", 'Content-Type' => 'application/x-ndjson')
+      curl = build_curl("#{URI.escape(index)}/#{URI.escape(type)}/_bulk", 'Content-Type' => 'application/x-ndjson')
       curl.post_body = data
       curl.http_post
       JSON.parse(curl.body_str)
     end
 
     def create(definition, index:)
-      curl = build_curl(index, 'Content-Type' => 'application/json')
+      curl = build_curl(URI.escape(index), 'Content-Type' => 'application/json')
       curl.http_put(definition)
       JSON.parse(curl.body_str)
     end
 
     def delete(name)
-      curl = build_curl(name)
+      curl = build_curl(URI.escape(name))
       curl.http_delete
       JSON.parse(curl.body_str)
     end
 
     def search(name, query:)
-      curl = build_curl("#{name}/_search", 'Content-Type' => 'application/json')
+      curl = build_curl("#{URI.escape(name)}/_search", 'Content-Type' => 'application/json')
       curl.post_body = query
       # Is this okay?
       curl.http_post
