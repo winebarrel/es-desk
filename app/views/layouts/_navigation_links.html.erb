@@ -6,6 +6,12 @@
   <% end %>
 </li>
 <li>
+  <%= link_to analyze_path, class: current_top_path?(root_path) ? 'color-white' : '' do %>
+    <span class="glyphicon glyphicon-cog"></span>
+    Analyze
+  <% end %>
+</li>
+<li>
   <%= link_to resultsets_path, class: current_top_path?(resultsets_path) ? 'color-white' : '' do %>
     <span class="glyphicon glyphicon-list-alt"></span>
     Resultset

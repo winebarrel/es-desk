@@ -1,0 +1,34 @@
+<section>
+  <%= form_tag analyze_path, method: :get do %>
+    <div class="form-group row">
+      <div class="col-sm-12">
+        <strong>Analyze query</strong>
+        <p>
+          <%= json_editor(@analyze || session[:analyze] || <<-JSON.strip_heredoc, id: 'analyze-editor', name: 'analyze')
+            {
+              "analyzer": "standard",
+              "text": "The 2 QUICK Brown-Foxes jumped over the lazy dog's bone."
+            }
+          JSON
+          %>
+        </p>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-12">
+        <%= submit_tag 'Search', class: 'btn btn-primary' %>
+      </div>
+    </div>
+  <% end %>
+
+  <% if @result %>
+    <div class="form-group row">
+      <div class="col-sm-12">
+        <strong>Result</strong>
+        <p>
+          <%= json_editor(@result, id: 'result-viewer', readonly: true) %>
+        </p>
+      </div>
+    </div>
+  <% end %>
+</section>

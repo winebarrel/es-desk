@@ -10,6 +10,9 @@ Rails.application.routes.draw do
     get 'download', to: 'datasets#download'
     get 'copy', to: 'datasets#copy'
   end
-  get 'visitors/query', to: 'visitors#query'
+
+  get 'analyze', to: 'analyze#index'
+
   root to: 'visitors#index'
+  get 'visitors/query', to: 'visitors#query'
 end

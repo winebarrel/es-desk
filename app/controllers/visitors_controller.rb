@@ -41,7 +41,7 @@ class VisitorsController < ApplicationController
 
   def beautify_json(json)
     hash = JSON.parse(json)
-    JSON.pretty_generate(hash)
+    JSON.pretty_generate(hash) + "\n"
   rescue JSON::ParserError
     json
   end

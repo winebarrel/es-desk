@@ -59,6 +59,14 @@ module Elasticsearch
       JSON.parse(curl.body_str)
     end
 
+    def analyze(query)
+      curl = build_curl("_analyze", 'Content-Type' => 'application/json')
+      curl.post_body = query
+      # Is this okay?
+      curl.http_post
+      JSON.parse(curl.body_str)
+    end
+
     private
 
     def build_curl(path, headers = {})
