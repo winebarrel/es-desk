@@ -1,6 +1,7 @@
 class VisitorsController < ApplicationController
   def index
     @search = params[:search]
+    session[:search] = @search if @search
 
     if @search
       @search = beautify_json(@search)
