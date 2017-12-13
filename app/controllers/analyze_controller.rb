@@ -7,9 +7,15 @@ class AnalyzeController < ApplicationController
       @analyze = beautify_json(@analyze)
     end
 
+    @indices = Index.all
+
+    if params[:index].present?
+      @index = params[:index]
+    end
+
     if @analyze.present?
       elasticsearch = Rails.application.config.elasticsearch
-      @result = JSON.pretty_generate(elasticsearch.analyze(@analyze))
+      @result = JSON.pretty_generate(elasticsearch.analyze(query: @analyze, index: @index))
     end
   end
 

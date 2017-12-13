@@ -1,6 +1,10 @@
 module Elasticsearch
   class Client
     class << self
+      def logger=(v)
+        @logger = v
+      end
+
       def has_error?(res)
         has_e = res.has_key?('error') || !!res['errors']
 
@@ -9,7 +13,7 @@ module Elasticsearch
             res.fetch('items').reject! {|i| i.dig('index', 'status') == 201 }
           end
 
-          Rails.logger.debug(res)
+          @logger.debug(res) if @logger
         end
 
         has_e
@@ -59,8 +63,10 @@ module Elasticsearch
       JSON.parse(curl.body_str)
     end
 
-    def analyze(query)
-      curl = build_curl("_analyze", 'Content-Type' => 'application/json')
+    def analyze(index: nil, query:)
+      path = index ? "#{URI.escape(index)}/" : ''
+      path << '_analyze'
+      curl = build_curl(path, 'Content-Type' => 'application/json')
       curl.post_body = query
       # Is this okay?
       curl.http_post
