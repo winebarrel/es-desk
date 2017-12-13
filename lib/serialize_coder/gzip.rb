@@ -7,6 +7,8 @@ module SerializeCoder
         else
           ActiveSupport::Gzip.decompress(compressed)
         end
+      rescue Zlib::GzipFile::Error
+        compressed
       end
 
       def dump(data)
