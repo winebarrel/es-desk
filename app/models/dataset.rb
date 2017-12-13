@@ -12,12 +12,11 @@ class Dataset < ApplicationRecord
 
   before_save :read_file
 
+  serialize :data, SerializeCoder::Gzip
+
   class << self
-    def select_for_preview
-      self.select(
-        *(self.column_names - ['data']),
-        "LEFT(data, #{SHORT_PREVIEW_LEN + 1}) AS data"
-      )
+    def select_without_data
+      self.select(*(self.column_names - ['data']))
     end
   end # of class methods
 
@@ -94,11 +93,9 @@ class Dataset < ApplicationRecord
   end
 
   def read_file
-    if self.data.is_a?(ActionDispatch::Http::UploadedFile)
-      self.data = self.data.read.each_line.select {|line|
-        line !~ /\A\s*\{\s*"index"\s*:\s*\{/
-      }.join
-    end
+    self.data = self.data.each_line.select {|line|
+      line !~ /\A\s*\{\s*"index"\s*:\s*\{/
+    }.join
 
     true
   end

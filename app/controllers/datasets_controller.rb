@@ -4,7 +4,7 @@ class DatasetsController < ApplicationController
   # GET /datasets
   # GET /datasets.json
   def index
-    @datasets = Dataset.select_for_preview.order(:name).page(params[:page])
+    @datasets = Dataset.select_without_data.order(:name).page(params[:page])
   end
 
   # GET /datasets/1
@@ -73,7 +73,7 @@ class DatasetsController < ApplicationController
 
   # GET /datasets/:dataset_id/copy
   def copy
-    @dataset = @dataset.copy_to(@dataset.name + '-copy')
+    @dataset = @dataset.copy_to(@dataset.name + '-copy-' + SecureRandom.hex(4))
 
     if disable_sql_logging { @dataset.save }
       redirect_to @dataset, notice: 'Dataset was successfully created.'
