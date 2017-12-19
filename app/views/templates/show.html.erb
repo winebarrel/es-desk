@@ -12,6 +12,7 @@
 </section>
 <section>
   <div class="col-sm-12">
+    <%= link_to 'Copy', new_template_path(copy: @template.name) %> |
     <%= link_to 'Edit', edit_template_path(@template.name) %> |
     <%= link_to 'Destroy', @template, method: :delete, data: { confirm: "Are you sure you want to destroy '#{@template.name}'?" } %> |
     <%= link_to 'List', templates_path %>

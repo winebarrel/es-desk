@@ -13,6 +13,11 @@ class TemplatesController < ApplicationController
   # GET /templates/new
   def new
     @template = Template.new
+
+    if params[:copy].present?
+      tmpl = Template.find(params[:copy])
+      @template.definition = tmpl.definition
+    end
   end
 
   # GET /templates/:id/edit
