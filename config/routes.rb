@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :templates
   resources :resultsets, except: :new
   resources :queries
   resources :indices do

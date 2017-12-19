@@ -35,6 +35,12 @@
     Dataset
   <% end %>
 </li>
+<li>
+  <%= link_to templates_path, class: current_top_path?(templates_path) ? 'color-white' : '' do %>
+    <span class="glyphicon glyphicon-duplicate"></span>
+    Template
+  <% end %>
+</li>
 <% Rails.application.config.es_desk.fetch(:header_links).each do |label, url| %>
   <li>
     <%= link_to url, target: '_blank' do %>

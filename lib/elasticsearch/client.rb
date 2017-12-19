@@ -73,6 +73,32 @@ module Elasticsearch
       JSON.parse(curl.body_str)
     end
 
+    def templates
+      curl = build_curl('_template')
+      curl.http_get
+      JSON.parse(curl.body_str)
+    end
+
+    def template(name)
+      curl = build_curl("_template/#{URI.escape(name)}")
+      curl.http_get
+      JSON.parse(curl.body_str)
+    end
+
+    def create_template(definition, template:)
+      curl = build_curl("_template/#{URI.escape(template)}")
+      curl.post_body = definition
+      # Is this okay?
+      curl.http_post
+      JSON.parse(curl.body_str)
+    end
+
+    def delete_template(name)
+      curl = build_curl("_template/#{URI.escape(name)}")
+      curl.http_delete
+      JSON.parse(curl.body_str)
+    end
+
     private
 
     def build_curl(path, headers = {})

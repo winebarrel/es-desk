@@ -1,0 +1,38 @@
+<div class="page-header">
+  <span class="glyphicon glyphicon-duplicate"></span>
+  <strong>Template</strong>
+</div>
+
+<section>
+  <div class="col-sm-12">
+    <%= button_to 'New Template', new_template_path, method: :get, class: 'btn btn-primary' %>
+  </div>
+</section>
+
+<section>
+  <div class="col-sm-12">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Definition</th>
+          <th colspan="2"></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @templates.each do |template| %>
+          <tr>
+            <td><%= link_to template.name, template_path(template.name) %></td>
+            <td><%= template.preview %></td>
+            <td><%= link_to 'Edit', edit_template_path(template.name) %></td>
+            <td><%= link_to 'Destroy', template, method: :delete, data: { confirm: "Are you sure you want to destroy '#{template.name}'?" } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-sm-12 text-center">
+    <%= paginate @templates %>
+  </div>
+</section>

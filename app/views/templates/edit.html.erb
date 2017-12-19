@@ -1,0 +1,12 @@
+<div class="page-header">
+  <strong>Editing Template: <%= @template.name %></strong>
+</div>
+
+<%= render 'form', template: @template %>
+
+<section>
+  <div class="col-sm-12">
+    <%= link_to 'Show', template_path(@template.name) %> |
+    <%= link_to 'List', templates_path %>
+  </div>
+</section>

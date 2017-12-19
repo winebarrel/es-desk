@@ -63,6 +63,7 @@ class Index
       if Elasticsearch::Client.has_error?(idx)
         nil
       else
+        index_definition = fix_definition(index_definition)
         self.new(name: index_name, definition: JSON.pretty_generate(idx.fetch(index_name)), persisted: true)
       end
     end
@@ -206,7 +207,7 @@ class Index
   end
 
   def definition_should_be_valid
-    if self.name =~ Index::INDEX_NAME_FORMAT
+    if self.name =~ INDEX_NAME_FORMAT
       elasticsearch = Rails.application.config.elasticsearch
       temporary_index = self.name + '-' + SecureRandom.hex
 
