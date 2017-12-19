@@ -63,7 +63,6 @@ class Index
       if Elasticsearch::Client.has_error?(idx)
         nil
       else
-        index_definition = fix_definition(index_definition)
         self.new(name: index_name, definition: JSON.pretty_generate(idx.fetch(index_name)), persisted: true)
       end
     end

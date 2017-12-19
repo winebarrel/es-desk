@@ -53,7 +53,7 @@ class Template
         raise TemplateNotFound.new(template_name)
       end
 
-      template_definition = fix_definition(template_definition)
+      template_definition = template_definition
       self.new(name: template_name, definition: JSON.pretty_generate(template_definition), persisted: true)
     end
 
@@ -71,11 +71,6 @@ class Template
       end
 
       self.new(name: template_name, definition: JSON.pretty_generate(template_definition), persisted: true)
-    end
-
-    # XXX:
-    def fix_definition(definition)
-      definition
     end
   end # of class methods
 
