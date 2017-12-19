@@ -86,7 +86,7 @@ module Elasticsearch
     end
 
     def create_template(definition, template:)
-      curl = build_curl("_template/#{URI.escape(template)}")
+      curl = build_curl("_template/#{URI.escape(template)}", 'Content-Type' => 'application/json')
       curl.post_body = definition
       # Is this okay?
       curl.http_post
