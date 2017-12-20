@@ -4,6 +4,26 @@
 
 <section>
   <div class="col-sm-12">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>docs.count</th>
+          <th>docs.deleted</th>
+          <th>store.size</th>
+          <th>pri.store.size</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><%= @index.docs_count %></td>
+          <td><%= @index.docs_deleted %></td>
+          <td><%= number_to_human_size(@index.store_size_in_byte) %></td>
+          <td><%= number_to_human_size(@index.pri_store_size_in_byte) %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-sm-12">
     <p>
       <strong>Dataset:</strong>
       <%= index_link_to_dataset(@index) %>

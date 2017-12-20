@@ -22,7 +22,9 @@ class Index
   attr_accessor :docs_count
   attr_accessor :docs_deleted
   attr_accessor :store_size
+  attr_accessor :store_size_in_byte
   attr_accessor :pri_store_size
+  attr_accessor :pri_store_size_in_byte
 
   attr_accessor :persisted
 
@@ -52,9 +54,7 @@ class Index
         raise IndexNotFound.new(index_name, idx)
       end
 
-      index_definition = idx.fetch(index_name)
-      index_definition = fix_definition(index_definition)
-      self.new(name: index_name, definition: JSON.pretty_generate(index_definition), persisted: true)
+      conv_to_model(index_name, idx)
     end
 
     def find_by_name(index_name)
@@ -63,9 +63,7 @@ class Index
       if Elasticsearch::Client.has_error?(idx)
         nil
       else
-        index_definition = idx.fetch(index_name)
-        index_definition = fix_definition(index_definition)
-        self.new(name: index_name, definition: JSON.pretty_generate(index_definition), persisted: true)
+        conv_to_model(index_name, idx)
       end
     end
 
@@ -91,6 +89,26 @@ class Index
       end
 
       definition
+    end
+
+    def conv_to_model(index_name, idx)
+      index_definition = idx.fetch(index_name)
+      index_definition = fix_definition(index_definition)
+      model = self.new(name: index_name, definition: JSON.pretty_generate(index_definition), persisted: true)
+
+      stats = Rails.application.config.elasticsearch.stats(index_name)
+
+      unless Elasticsearch::Client.has_error?(stats)
+        stats = stats.fetch('_all')
+        total = stats.fetch('total')
+        primaries = stats.fetch('primaries')
+        model.docs_count = total.fetch('docs').fetch('count')
+        model.docs_deleted = total.fetch('docs').fetch('deleted')
+        model.store_size_in_byte = total.fetch('store').fetch('size_in_bytes')
+        model.pri_store_size_in_byte = primaries.fetch('store').fetch('size_in_bytes')
+      end
+
+      model
     end
   end # of class methods
 

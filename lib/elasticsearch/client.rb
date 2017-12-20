@@ -36,6 +36,12 @@ module Elasticsearch
       JSON.parse(curl.body_str)
     end
 
+    def stats(name)
+      curl = build_curl("#{URI.escape(name)}/_stats")
+      curl.http_get
+      JSON.parse(curl.body_str)
+    end
+
     def bulk(data, index:, type:)
       curl = build_curl("#{URI.escape(index)}/#{URI.escape(type)}/_bulk", 'Content-Type' => 'application/x-ndjson')
       curl.post_body = data
