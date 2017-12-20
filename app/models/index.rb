@@ -85,8 +85,8 @@ class Index
           settings_index.delete('uuid')
         end
 
-        if settings_index.dig('version', 'created')
-          settings_index.fetch('version').delete('created')
+        if settings_index['version']
+          settings_index.delete('version')
         end
       end
 
