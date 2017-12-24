@@ -3,7 +3,9 @@ class ResultsetsController < ApplicationController
 
   # GET /resultsets
   def index
-    @resultsets = Resultset.select_without_data.eager_load(:dataset).order(created_at: :desc).page(params[:page])
+    @resultsets = Resultset.eager_load(:dataset).
+      from(Arel.sql("#{Resultset.quoted_table_name} FORCE INDEX (`idx_created_at`)")).
+      order(created_at: :desc).page(params[:page])
   end
 
   # GET /resultsets/:id

@@ -3,12 +3,6 @@ class Resultset < ApplicationRecord
 
   validates :name, presence: true
 
-  class << self
-    def select_without_data
-      self.select(*(self.column_names - ['index_definition', 'dataset_preview', 'result']))
-    end
-  end # of class methods
-
   def index
     Index.find_by_name(self.index_name)
   end
