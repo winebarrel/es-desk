@@ -27,7 +27,7 @@
             <td><%= dataset_link_to_index(dataset) %></td>
             <td><%= dataset.document_type %></td>
             <td><%= link_to 'Import', dataset_import_path(dataset), data: { confirm: "Are you sure you want to import '#{dataset.name}'?" } %></td>
-            <td><%= link_to 'Copy', dataset_copy_path(dataset) %></td>
+            <td><%= link_to 'Copy', 'javascript:void(0);', onclick: %!copy_dataset("#{j dataset_copy_path(dataset)}", "#{j dataset.name}-" + new Date().getTime())! %></td>
             <td><%= link_to 'Edit', edit_dataset_path(dataset) %></td>
             <td><%= link_to 'Destroy', dataset, method: :delete, data: { confirm: "Are you sure you want to destroy '#{dataset.name}'?" } %></td>
           </tr>
