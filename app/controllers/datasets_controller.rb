@@ -73,13 +73,7 @@ class DatasetsController < ApplicationController
 
   # GET /datasets/:dataset_id/copy
   def copy
-    new_name = params[:name]
-
-    if new_name.blank?
-      new_name = @dataset.name + '-copy-' + SecureRandom.hex(4)
-    end
-
-    @dataset = @dataset.copy_to(new_name)
+    @dataset = @dataset.copy_to(params[:name])
 
     if disable_sql_logging { @dataset.save }
       redirect_to @dataset, notice: 'Dataset was successfully created.'
